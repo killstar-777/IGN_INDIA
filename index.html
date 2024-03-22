@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en-in" data-ign="2018" prefix="og: http://ogp.me/ns#" id="IGN2023">
+<head>
+<title>IGN India</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="IGN India is your ultimate destination for xbox 360, xbox one, ps3, ps4, PC, Vita, 3DS &amp; Iphone games with expert reviews, previews, news, cheat codes, wikis." />
+<link rel="canonical" href="http://in.ign.com/">
+<link rel="alternate" hreflang="ar" href="https://me.ign.com/ar/" />
+<link rel="alternate" hreflang="cs" href="https://cz.ign.com/" />
+<link rel="alternate" hreflang="de" href="https://de.ign.com/" />
+<link rel="alternate" hreflang="el" href="https://gr.ign.com/" />
+<link rel="alternate" hreflang="en" href="https://www.ign.com/" />
+<link rel="alternate" hreflang="en-ae" href="https://me.ign.com/en/" />
+<link rel="alternate" hreflang="en-au" href="https://www.ign.com/au" />
+<link rel="alternate" hreflang="en-gb" href="https://www.ign.com/uk" />
+<link rel="alternate" hreflang="en-in" href="https://in.ign.com/" />
+<link rel="alternate" hreflang="en-my" href="https://sea.ign.com/" />
+<link rel="alternate" hreflang="en-se" href="https://nordic.ign.com/" />
+<link rel="alternate" hreflang="en-sg" href="https://sea.ign.com/" />
+<link rel="alternate" hreflang="en-us" href="https://www.ign.com/" />
+<link rel="alternate" hreflang="en-za" href="https://za.ign.com/" />
+<link rel="alternate" hreflang="es" href="https://latam.ign.com/" />
+<link rel="alternate" hreflang="es-419" href="https://latam.ign.com/" />
+<link rel="alternate" hreflang="es-es" href="https://es.ign.com/" />
+<link rel="alternate" hreflang="es-mx" href="https://latam.ign.com/" />
+<link rel="alternate" hreflang="fr" href="https://fr.ign.com/" />
+<link rel="alternate" hreflang="he" href="https://il.ign.com/" />
+<link rel="alternate" hreflang="it" href="https://it.ign.com/" />
+<link rel="alternate" hreflang="ja" href="https://jp.ign.com/" />
+<link rel="alternate" hreflang="ko" href="https://kr.ign.com/" />
+<link rel="alternate" hreflang="nl" href="https://nl.ign.com/" />
+<link rel="alternate" hreflang="pt-br" href="https://br.ign.com/" />
+<link rel="alternate" hreflang="pt-pt" href="https://pt.ign.com/" />
+<link rel="alternate" hreflang="ru" href="https://ru.ign.com/" />
+<link rel="alternate" hreflang="tr" href="https://tr.ign.com/" />
+<link rel="alternate" hreflang="x-default" href="http://www.ign.com/" />
+<link rel="alternate" hreflang="zh" href="https://www.ign.com.cn/" />
+<meta http-equiv="content-language" content="en-in" />
+
+<meta name="robots" content="max-image-preview:large">
+
+<link rel="next" id="infinitenext" href="/?page=2">
+
+<link href="/s/ign/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="mask-icon" href="https://oystatic.ignimgs.com/src/core/img/favicon/safari_favicon.svg" color="#bf1313"/>
+
+<script id="gdpr" type="text/javascript">
+(function() {
+    if (window !== window.top){return;}
+    var getGeoCC = function() {
+        var match = document.cookie.match(/(^|;)\s*geoCC\s*=\s*([^;]+)/);
+        if (match) return match[2];
+    }
+    window.geoCC = getGeoCC();
+    //gdprApplies namespace should be fine, the stub function below is a let within an iife
+    window.gdprApplies = (geoCC && /be|bg|cz|dk|de|ee|ie|el|es|fr|gr|hr|it|cy|lv|lt|lu|hu|mt|nl|at|pl|pt|ro|si|sk|fi|no|se|gb|uk|unk/i.test(geoCC)) ? true : false;
+    if (gdprApplies) {
+        (function() {
+            const makeStub = () => {
+                const TCF_LOCATOR_NAME = '__tcfapiLocator';
+                const queue = [];
+                const currentWindow = window;
+                let frameLocator = currentWindow;
+                let cmpFrame;
+                let gdprApplies;
+
+                function addFrame() {
+                    const doc = currentWindow.document;
+                    const otherCMP = !!(currentWindow.frames[TCF_LOCATOR_NAME]);
+
+                    if (!otherCMP) {
+                        if (doc.body) {
+                            const iframe = doc.createElement('iframe');
+
+                            iframe.style.cssText = 'display:none';
+                            iframe.name = TCF_LOCATOR_NAME;
+                            doc.body.appendChild(iframe);
+                        } else {
+                            setTimeout(addFrame, 5);
+                        }
+                    }
+
+                    return !otherCMP;
+                }
+
+                function tcfAPIHandler(...args) {
+                    if (!args.length) {
+                        return queue;
+                    } else if (args[0] === 'setGdprApplies') {
+                        if (args.length > 3 && parseInt(args[1], 10) === 2 && typeof args[3] === 'boolean') {
+                            gdprApplies = args[3];
+
+                            if (typeof args[2] === 'function') {
+                                args[2]('set', true);
+                            }
+                        }
+                    } else if (args[0] === 'ping') {
+                        if (typeof args[2] === 'function') {
+                            args[2]({
+                                gdprApplies: gdprApplies,
+                                cmpLoaded: false,
+                                cmpStatus: 'stub',
+                            });
+                        }
+                    } else {
+                        if(args[0] === 'init' && typeof args[3] === 'object') {
+                        args[3] = { ...args[3], tag_version: 'V2' };
+                        }
+                        queue.push(args);
+                    }
+                }
+
+                function postMessageEventHandler(event) {
+                    const msgIsString = typeof event.data === 'string';
+                    let json = {};
+
+                    if (msgIsString) {
+                        try {
+                            json = JSON.parse(event.data);
+                        } catch (ignore) {}
+                    } else {
+                        json = event.data;
+                    }
+
+                    const payload = (typeof json === 'object') ? json.__tcfapiCall : null;
+
+                    if (payload) {
+                        window.__tcfapi(
+                            payload.command,
+                            payload.version,
+                            function(retValue, success) {
+                                let returnMsg = {
+                                    __tcfapiReturn: {
+                                        returnValue: retValue,
+                                        success: success,
+                                        callId: payload.callId,
+                                    },
+                                };
+
+                                if (event && event.source && event.source.postMessage) {
+                                    event.source.postMessage((msgIsString) ? JSON.stringify(returnMsg) : returnMsg, '*');
+                                }
+                            },
+                            payload.parameter,
+                        );
+                    }
+                }
+                while (frameLocator) {
+                    try {
+                        if (frameLocator.frames[TCF_LOCATOR_NAME]) {
+                            cmpFrame = frameLocator;
+                            break;
+                        }
+                    } catch (ignore) {}
+                    if (frameLocator === currentWindow.top) {
+                        break;
+                    }
+                    frameLocator = currentWindow.parent;
+                }
+
+                if (!cmpFrame) {
+                    addFrame();
+                    currentWindow.__tcfapi = tcfAPIHandler;
+                    currentWindow.addEventListener('message', postMessageEventHandler, false);
+                }
+            };
+
+            if (typeof module !== 'undefined') {
+                module.exports = makeStub;
+            } else {
+                makeStub();
+            }
+        }());
+    }
+})();
+</script>
+
+  
+<script type="text/javascript">
+  window.ICMS = window.ICMS || { cmd: [], libs: [], css: [], tcf2loader: [], deferredJSLoader:[] };
+  ICMS.lang = 'en'; ICMS.siteID = 'ign_in'; ICMS.siteName = 'IGN India';
+  ICMS.amzTag = 'zdintlignin01-21'; ICMS.contentId = ''; ICMS.keywordSlug = '';
+  ICMS.baseUri = ''; ICMS.pageName = ''; ICMS.pageUrl = '';
+  ICMS.isPublished = ''; ICMS.backendEditUrl = '';
+  ICMS.isEmbed = (window.self !== window.top) ? true : false; ICMS.articletype = '';
+  ICMS.staticVersioning = '?562';
+  ICMS.cmd.push(function() { IGNInternationalInit(); });
+</script>
+<script type="text/javascript">window.ICMS.cmd.push(function() { 
+
+ });</script>
+<script src="/s/bundle_ign.js?562" defer></script><script src="https://sm.ign.com/zdadkit2.js?562" defer></script><script src="https://sm.ign.com/themes_3.js?562" defer></script>
+<script type="text/javascript">window._icmsFbq = window._icmsFbq || []; window._icmsFbq.push(['init', '1438338213140716']); window._icmsFbq.push(['track', 'PageView']);</script><noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=1438338213140716&ev=PageView"/></noscript><meta name="twitter:site" content="@IGN_IN"><meta property="og:site_name" content="IGN India" /><meta property="fb:app_id" content="115982828429116" /><meta property="fb:profile_id" content="https://www.facebook.com/IGNDIA" /><meta property="fb:pages" content="202444096604062" /><meta property="og:type" content="website"><meta property="og:title" content="IGN India"><meta property="og:locale" content="en_US"><meta property="og:url" content="https://in.ign.com/"><meta property="og:image" content="https://in.ign.com/s/ign/social_logo.png"><meta property="og:description" content="IGN India is your ultimate destination for xbox 360, xbox one, ps3, ps4, PC, Vita, 3DS & Iphone games with expert reviews, previews, news, cheat codes, wikis.">
+
+
+  <link rel="alternate" type="application/rss+xml" title="IGN India Feed " href="/feed.xml" />
+
+
+<!-- Trackers -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-35RR5DNBD6"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+window.gtag = window.gtag||function(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-35RR5DNBD6', {
+  
+})
+
+
+
+gtag('config', 'G-G0Z2FQREVE');
+
+</script>
+
+<script type="text/javascript">var _comscore = _comscore || []; _comscore.push({c1: "2", c2: "3000068" });</script>
+<script type="text/javascript" src="https://sb.scorecardresearch.com/beacon.js" async="true"></script>
+<noscript><img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=3000068&amp;c4=" alt="*" style="position: absolute" width="1" height="1"></noscript>
+
+
+<style type="text/css">/* MOBILE FIRST */ @font-face { font-family: 'Inter Var'; font-style: normal; font-weight: 100 1000; font-display: swap; font-stretch: normal; src: url('/s/ign/Inter-VariableFont_slnt,wght.ttf') format("truetype-variations"); } body, html { margin: 0; padding: 0; font-family: 'Inter Var', sans-serif; text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; } body { overflow-x: hidden; } body, html, .page-wrapper { background-color: #f6f8f7; } body, header, aside#sidebarHeader { padding-top: 0; } body.rtl { direction: rtl; } /* Adtech Skin support */ body.hasSkin section.vspotlight, body.hasSkin section.popular, body.hasSkin section.broll, body.hasSkin section.stripe, body.hasSkin .hspotlight, body.hasSkin .list-content, body.hasSkin .wrap { max-width: 1240px; padding: 8px 10px; } body.hasSkin section.broll, body.hasSkin section.wrap.videofeatured { padding-left: 10px; padding-right: 10px; background: #f6f8f7; box-sizing: border-box; } body.hasSkin section.stripe { padding-left: 10px; padding-right: 10px; margin: 0 auto; box-sizing: border-box; } body.hasSkin .page-content { max-width: 1240px; margin: 0 auto; background: #f6f8f7; padding-top: 5px; box-sizing: border-box; } body.hasSkin section.hero article { width: 1240px; max-width: 1240px; background-position: center; background-repeat: no-repeat; } body.hasSkin section.hero { margin-left: initial; margin-right: initial; } body.hasSkin .herogrid { padding: 10px; box-sizing: border-box; background: #f6f8f7; } body.hasSkin .spacer { display: none; } .ad-wrapper.pgQSsticky { position: sticky; position: -webkit-sticky; top: 65px; margin-top: 35px; } #_themeMobileHeaderDoodle { max-height: 100%; } body.iframe aside#sidebarHeader, body.iframe #btnoverlay { display: none; } header { top: 0; width: 100%; z-index: 100; flex-shrink: 0; } header .icon-logo { aspect-ratio: 182 / 55; width: 6.625em; height: 1.9791666666667em; font-size: 0.7rem; } header .icon-logo .dpad-path { fill: #bf1313; } .sidebar-page-header { border-bottom: 1px solid rgba(138, 147, 153, 0.25); display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; width: 100%; height: 64px; background: #fff; z-index: 7; padding: 0 12px; transition: margin-left 200ms cubic-bezier(0.34,-0.09,0.45,1.18); box-sizing: border-box; } .sidebar-page-header #current-user { position: absolute; top: 15.5px; right: 16px; width: 32px; color: #41495a; } .sidebar-page-header #current-user .userIcon { width: 32px; height: 32px; border-radius: 50%; } aside#sidebarHeader.backend { display: none; } aside#sidebarHeader.backend + #btnoverlay + #mainblock { width: 100%; margin-left: 0; } aside#sidebarHeader { --theme-elements-divider: rgba(138, 147, 153, 0.25); --theme-elements-icon-default: #41495a; color: #41495a; position: fixed; top: 0; left: 0; bottom: 0; height: 100%; background: #fff; box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1), 0px 17px 24px rgba(0, 0, 0, 0.07); z-index: 2000000000; transition-duration: 450ms; width: 85vw; font-family: 'Inter var',sans-serif; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); -webkit-transition-property: -webkit-transform; -webkit-transition-property: transform; transition-property: transform; } aside#sidebarHeader * { box-sizing: border-box; } #sidebarHeader.hide { display: none; } aside#sidebarHeader.collapsed { width: 0; } aside#sidebarHeader.collapsed .header-toggle svg { transition: transform 0.1s linear 0s; font-size: 0.6rem; transform: rotate(-180deg); } aside#sidebarHeader.collapsed .logodate, aside#sidebarHeader.collapsed .ign-logo .ign-path, aside#sidebarHeader.collapsed .sidebar-main a span, aside#sidebarHeader.collapsed .logout, aside#sidebarHeader.collapsed .search-modal, aside#sidebarHeader.collapsed .region, #sidebarHeader.collapsed button.back label { opacity: 0; } aside#sidebarHeader.collapsed .region { display:none; } aside#sidebarHeader .logodate, aside#sidebarHeader .ign-logo .ign-path, aside#sidebarHeader .sidebar-main a span, aside#sidebarHeader .logout, aside#sidebarHeader .search-modal, aside#sidebarHeader .region { -webkit-transition-duration: 200ms; transition-duration: 200ms; transition: opacity 200ms cubic-bezier(0.34,-0.09,0.45,1.18); } aside#sidebarHeader .sidebar-main a span { opacity: 1; line-height: 1.5; } aside#sidebarHeader.collapsed #loginwrapper .login-avatar, #loginwrapper.loggedin .login-avatar { opacity: 1; } aside#sidebarHeader #ignheader.collapsed #loginwrapper .login-buttons { opacity: 0; display: none; } aside#sidebarHeader.collapsed #loginwrapper .sidebar-item-text, #loginwrapper.loggedin .login-buttons { opacity: 0; display: none; } aside#sidebarHeader.collapsed .side .sidebar-header { padding-left: 36px; padding-right: 36px; } aside#sidebarHeader.collapsed .side .sidebar-header.scrollbar { padding-left: 33px; } body.rtl aside#sidebarHeader .sidebar-header { direction: ltr; } aside#sidebarHeader.collapsed .sidebar-icon { font-size: 1.5rem; } aside#sidebarHeader.collapsed .icon-right-chevron, aside#sidebarHeader.collapsed #loginwrapper .userlogged span { display: none; } aside#sidebarHeader .icon-right-chevron { width: 16px; margin-left: auto; } body.rtl aside#sidebarHeader .icon-right-chevron { width: 16px; margin-left: 0; margin-right: auto; -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); } body.rtl aside#sidebarHeader .icon-left-chevron { margin-left: 0; margin-right: auto; transform: rotate(180deg); } body.rtl aside#sidebarHeader.collapsed .icon-left-chevron { -moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); } aside#sidebarHeader.collapsed .header-toggle { right: -46px; } aside#sidebarHeader.collapsed .header-toggle { display: block; } aside#sidebarHeader .header-toggle.WIKI { display: none; } aside#sidebarHeader #search-input { display: block; padding: 8px; width: 90%; border: 1px solid #181c25; outline: none; font-size: 14px; border-radius: 8px; color: #181c25; max-width: 90%; } aside#sidebarHeader .cls-1 { color: inherit; stroke: none; } .sidebar-mobile-overlay { position: fixed; inset: 0px; background-color: rgba(65, 73, 90, 0.8); backdrop-filter: blur(0.5em); transition: opacity 200ms cubic-bezier(0.34,-0.09,0.45,1.18); z-index: 10; opacity: 1; } .sidebar-mobile-overlay.collapsed { opacity: 0; z-index: -1; } aside#sidebarHeader .logout { padding: 4px 16px 4px 16px; color: #FFF; border-radius: 4px; background-color: #bf1313; font-weight: bold; line-height: 1em; text-align: center; display: inline-block; width: 19%; top: 4px; position: relative; align-self: flex-start; } .header-toggle { position: absolute; z-index: 1; z-index: 20002; border-radius: 50%; color: #fff; border: 1px solid #181c25; background-color: #181c25; cursor: pointer; width: 32px; height: 32px; right: -16px; top: 16px; padding: 0; } .header-toggle:hover { background-color: #41495a; border: 1px solid #41495a; color: #fff; } #ignheader { display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; overflow: hidden; height: 100%; } .fixed-header { position: fixed; } .side-container { position: relative; -webkit-flex: 1; -ms-flex: 1; flex: 1; } .side { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; overscroll-behavior: contain; position: absolute; width: 100%; height: 100%; left: -75%; opacity: 0; z-index: 0; -webkit-transition-property: left,opacity; transition-property: left,opacity, display; -webkit-transition-duration: 250ms,100ms; transition-duration: 250ms,100ms; -webkit-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-delay: 0ms,75ms; transition-delay: 0ms,75ms; } .side .sidebar-header { -webkit-flex-basis: 80px; -ms-flex-preferred-size: 80px; flex-basis: 80px; -webkit-transition: padding-left 450ms cubic-bezier(0.34,-0.09,0.45,1.18); transition: padding-left 450ms cubic-bezier(0.34,-0.09,0.45,1.18); -webkit-flex: 0 0 64px; -ms-flex: 0 0 64px; flex: 0 0 64px; overflow: hidden; padding: 20px 24px 0; } .side .sidebar-header .logo-edition, #ignheader.collapsed .side-container .sidebar-section li { white-space: nowrap; } .logo-edition { display: flex; gap: 6px; } .side .sidebar-main { overflow: hidden auto; scroll-behavior: smooth; flex: 1 1 0%; padding: 18px 24px; } .sidebar-main > hr { height: 1px; background-color: rgba(138, 147, 153, 0.25); border: none; } .sidebar-main > b { text-transform: uppercase; } aside#sidebarHeader.collapsed .side .sidebar-main { padding-right: 24px; padding-left: 24px; } .side .sidebar-main .divider { width: 100%; margin-top: 18px; margin-bottom: 18px; border-bottom: 1px solid rgba(138, 147, 153, 0.25); } .side h3 { font-size: 18px; font-weight: 700; margin: 18px 0; } /* aside#sidebarHeader.collapsed .side h3 { display: none; } */ #loginwrapper { position: relative; box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1), 0px 17px 24px rgba(0, 0, 0, 0.07); width: 100%; overflow: hidden; padding: 18px 24px; height: 76px; overflow: hidden; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-top: auto; box-sizing: border-box; } .collapsed #loginwrapper { display: block; } #loginwrapper.loggedin { gap: 80px; display: block; } #loginwrapper.loggedin .login-avatar { background: transparent; display: flex; flex-direction: row; gap: 12px; width: 100%; } #loginwrapper .userlogged { font-weight: bold; display: inline-block; width: 80%; max-width: 80%; color: #41495a; } #loginwrapper .userlogged span { max-width: 70%; display: inline-block; } #loginwrapper .login-avatar, #loginwrapper .sidebar-item-text { opacity: 0; width: 0; padding: 0; border: 0; -webkit-transition-property: opacity,width,padding; transition-property: opacity,width,padding; -webkit-transition-duration: 450ms; transition-duration: 450ms; -webkit-transition-timing-function: cubic-bezier(0.34,-0.09,0.45,1.18); transition-timing-function: cubic-bezier(0.34,-0.09,0.45,1.18); display: none; } .collapsed #loginwrapper .login-avatar { padding-top: 10px; display: block; width: 100%; height: auto; color: #41495a; } #loginwrapper .login-buttons { display: flex; opacity: 1; -webkit-transition: opacity 450ms cubic-bezier(0.34,-0.09,0.45,1.18); transition: opacity 450ms cubic-bezier(0.34,-0.09,0.45,1.18); -webkit-flex: 1; -ms-flex: 1; flex: 1; flex-direction: row; gap: 12px; justify-content: center; text-decoration: none; } #loginwrapper img.userIcon { height: 36px; border-radius: 50%; vertical-align: middle; margin-right: 10px; } .login-buttons .button { cursor: pointer; white-space: nowrap; transition: color 0.2s ease 0s, background 0.15s ease 0s, border 0.15s ease 0s; max-width: 120px; font-size: 0.875rem; -webkit-letter-spacing: 0.005em; -moz-letter-spacing: 0.005em; -ms-letter-spacing: 0.005em; letter-spacing: 0.005em; font-weight: 700; line-height: 1.5; border-radius: 8px; padding: 6px 12px; flex-grow: 1; text-align: center; } .login-buttons .login-button { background-color: #fff; border: 1px solid #bbc4c4; color: #181c25; } .login-buttons .register-button { color: #fff; border: 1px solid #181c25; background-color: #181c25; } .side-container .sidebar-section { list-style-type: none; display: flex; flex-direction: column; gap: 2px; margin: 0; padding: 0; } .side.slide { left: 0; opacity: 1; z-index: 1; } .side.right { left: 75%; } .fancybox-lock .fancybox-overlay { z-index: 10000000000; } .region { padding: 18px 24px; } .region select { color: #41495a; border-radius: 8px; font-size: 16px; -webkit-appearance: none; -moz-appearance: none; appearance: none; padding: 8px 12px; width: 100%; outline: none; margin-top: 5px; background: white; border: 1px solid rgb(118, 118, 118); } .region select:not(:disabled) { background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='12' height='12' xmlns='http://www.w3.org/2000/svg'%3e%3cg stroke-width='1' fill='none' stroke-linecap='round' stroke-linejoin='round' stroke='%2341495a'%3e%3cpath d='M8.82842712 5L6 7.82842712 3.17157288 5'/%3e%3c/g%3e%3c/svg%3e"); background-size: 18px; background-position: calc(100% - 12px) center; background-repeat: no-repeat; } body.rtl .region select:not(:disabled) { background-position: calc(0% + 12px) center; } .side-container .sidebar-section li { width: 100%; display: flex; -webkit-box-align: center; align-items: center; gap: 18px; border-radius: 8px; overflow: hidden; font-size: 15px; } .side-container .sidebar-section a { width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; gap: 12px; color: #41495a; border-radius: 8px; padding: 8px 15px; overflow: hidden; fill: #41495a; transition: padding 0.1s linear 0s; } aside#sidebarHeader.collapsed .side-container .sidebar-section a { padding-left: 15px; padding-right: 11px; } aside#sidebarHeader.collapsed .side-container .sidebar-section a.scrollbar { padding-left: 11px; } body.rtl aside#sidebarHeader.collapsed .side-container .sidebar-section a { padding-right: 15px; } .side-container .sidebar-section > li.selected, .side-container .sidebar-section > li:hover { background-color: #8a939940; color: #41495a; border: 0; } .side-container .sidebar-section > li.search:hover { background-color: inherit; cursor: pointer; } .side-container .sidebar-section > li.selected { font-weight: bold; } .sidebar-section a.icon-home:before { content: url('/s/ign/sidebar/home.svg'); padding-left: 1px; } .sidebar-section .selected a.icon-home:before { content: url('/s/ign/sidebar/home-selected.svg'); padding-left: 1px; } .sidebar-section a[href^='/article/review']:before { content: url('/s/ign/sidebar/review.svg'); } .sidebar-section a[href^='/video']:before { content: url('/s/ign/sidebar/video.svg'); } .sidebar-section a[href^='/forum']:before { content: url('/s/ign/sidebar/forum.svg'); } .sidebar-section a[href^='/ps4']:before { content: url('/s/ign/sidebar/ps4.svg'); } .sidebar-section a[href^='/pc']:before { content: url('/s/ign/sidebar/pc.svg'); } .sidebar-section a[href^='/xbox-one']:before { content: url('/s/ign/sidebar/xbox.svg'); } .sidebar-section a[href^='/article/feature']:before { content: url('/s/ign/sidebar/facebook.svg'); } .sidebar-section a[href^='/nintendo-switch']:before { content: url('/s/ign/sidebar/nintendo-switch.svg'); } .sidebar-section a[href^='/cinematv']:before { content: url('/s/ign/sidebar/film.svg'); } .sidebar-section a[href^='/3ds']:before { content: url('/s/ign/sidebar/3ds.svg'); } .sidebar-section a[href^='/ps5']:before { content: url('/s/ign/sidebar/ps5.svg'); } .sidebar-section a:before, .sidebar-section a svg { background-size: 100%; cursor: inherit; user-select: none; aspect-ratio: 1 / 1; width: 1.2em; height: 1.2em; display: inline-block; flex-shrink: 0; font-size: 25px; } .sidebar-section a.iconsvg:before { display: none; } .sidebar-icon { background-size: 100%; cursor: inherit; user-select: none; aspect-ratio: 1 / 1; width: 1em; height: 1em; display: inline-block; flex-shrink: 0; font-size: 1.5rem; } .side .sidebar-main::-webkit-scrollbar { width: 6px; } .side .sidebar-main::-webkit-scrollbar-thumb { box-shadow: inset 0 0 6px rgba(138, 147, 153, 0.5); background: rgba(138, 147, 153, 0.5); border-radius: 10px; } .side .sidebar-main::-webkit-scrollbar-track { background: transparent; } button.back { border: 0; background-color: transparent; outline-width: 0; padding: 0; cursor: pointer; color: #41495a; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-align-items: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: left; margin: 0; font-size: 11px; font-weight: normal; line-height: 1.35; -webkit-letter-spacing: 0.03em; -moz-letter-spacing: 0.03em; -ms-letter-spacing: 0.03em; letter-spacing: 0.03em; text-transform: uppercase; font-weight: 700; gap: 12px; } body.rtl button.back { flex-direction: row-reverse; margin-left: auto; } button.back label { cursor: pointer; } #sidebarHeader li.legal { flex-direction: column-reverse; color: #41495a; background: #f6f8f7; padding: 8px 11px; font-size: 13px; -webkit-letter-spacing: 0.005em; -moz-letter-spacing: 0.005em; -ms-letter-spacing: 0.005em; letter-spacing: 0.005em; line-height: 1.3; gap: 6px; } #sidebarHeader li.legal a { padding: 0; } a { text-decoration: none; } .wrap { max-width: 1200px; margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; } section#js { position: absolute; bottom: 0; left: 0; width: 1px; height: 1px; overflow: hidden; } #gheader, section.stripe { background-color: #f5f5f5; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18); padding: 18px 0; transition: padding 0.1s linear 0s; overflow: hidden; border-top: 1px solid #d1d5db; } section.stripe { padding: 12px 0; margin-bottom: 0; } svg.ign-logo { background-size: 100%; cursor: inherit; user-select: none; display: inline-block; flex-shrink: 0; aspect-ratio: 182 / 55; height: 1.97917em; font-size: 1.5rem; width: 3.17em; } svg.ign-logo, svg.sidebar-icon.icon-logo { color: #bf1313; fill: #bf1313; } #ign-logo-wrap { position: absolute; left: 50%; transform: translate(-50%); top: 25%; z-index: 500; } div.logodate { font-size: 16px; font-weight: 700; max-width: 280px; display: inline-block; vertical-align: super; align-self: center; } .right-rail { display: block; } .extramenu { cursor: pointer; } .editions.desktop { display: none; } .filterlist { padding: 0; margin: 0; } #zdlogoblue { width: 65px; height: auto; } .search-modal { margin-top: 2px; width: 100%; } .search-modal .button { display: none; } .menu-editions { display: block!important; text-align: center!important; line-height: 60px; } #footer div.legal { display: flex; align-items: center; } footer { display: none; } #footer.limitedScroll { display: block; background: #F5F5F5; padding: 4px; font-size: small; text-align: center; } #footer.limitedScroll a { color: #BF1313; } a.commentscount:before { content: url('/s/ign/comments.svg'); display: inline-block; vertical-align: middle; margin-left: 10px; margin-right: 5px; } .page-content { position: relative; top: 18%; } .button-primary { background-color: #bf1313; border-radius: 4px; color: #fff; cursor: pointer; font-size: 20px; font-weight: bold; letter-spacing: -0.5px; white-space: nowrap; padding: 8px 20px 8px 20px; border: 0; } /* Broll */ div.tbl { display: table; position: relative; margin-right: 320px; } section.broll.hasAd div.adk2 { position: absolute; right: 0; width: 300px; } section.broll { display: block; padding-top: 25px; padding-bottom: 25px; margin: 0 auto; } section.broll + section.broll { padding-top: 0; padding-bottom: 0; } body.hasSkin section.broll + section.broll { padding-left: 10px; padding-right: 10px; } section.broll > h2 { border-bottom: solid 1px rgba(37, 38, 39, 0.15); } section.broll article { display: table-row; position: relative; margin-left: 0; } section.broll div.t { display: table-cell; width: auto; box-sizing: border-box; vertical-align: top; width: 25%; max-width: 280px; margin: 0; position: relative; } section.broll div.m { display: table-cell; vertical-align: top; width: 75%; box-sizing: border-box; } section.broll div.m, section.broll div.t { padding-top: 25px; padding-bottom: 25px; border-bottom: solid 1px rgba(37, 38, 39, 0.15); } section.broll img.thumb { display: block; width: 100%; border-radius: 6px; max-height: 160px; max-width: 280px; object-fit: cover; transition: opacity 0.2s ease-out; } section.broll h3 { margin: 6px 0; } section.broll h3 a { font-size: 18px; line-height: 20px; font-weight: 700; margin: 0; color: #252627; text-decoration: none; } section.broll h3 a:hover { text-decoration: underline; } section.broll div.m time, section.broll div.m a.comments { font: 14px 'Inter Var', sans-serif, bold; line-height: 18px; color: #bf1313; text-decoration: none; } section.broll .thumb.score-wrapper .article_type { position: absolute; bottom: 0; left: 0; padding: 2px 5px; font-size: 13px; background-color: #bf1313; color: #FFF; margin: 0 0 10px 6px; border-radius: 4px; } section.broll img.thumb:hover { opacity: 0.85; transition: opacity 0.2s ease-out 0s; } section.broll div.m > p { display: block; margin: 0px; overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; word-break: break-all; word-break: break-word; -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto; } section.broll .videobtn { position: absolute; background-color: #bf1313; color: #FFF; width: 52; height: 52px; margin-top: -70px; margin-left: -6px; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); border: solid 2px rgba(0, 0, 0, 0.1); padding: 9px; } section.broll article.VIDEO > a:after { content: url('/s/ign/playButton.svg'); position: absolute; bottom: 2px; left: 2px; } section.broll article.PROMOTED { background: #f2f2f2; } section.broll div.tbl { margin-right: 0; } /* Blogroll video play button */ section.broll .video .duration { background-color: #bf1313; border-radius: 4px; bottom: 0; left: 0; margin: 0 0 10px 6px; position: absolute; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); border: solid 2px rgba(0, 0, 0, 0.1); display: flex; padding: 5px; } section.broll .video .duration-text { color: #fff; font-family: 'Inter Var', sans-serif; font-weight: bold; letter-spacing: 1px; align-self: flex-end; } section.broll .video .icon-playhead { background-size: 100%; height: 1em; width: 1em; margin: 0 8px 0 0; font-size: 22px; line-height: 22px; align-self: center; } section.broll div.m { padding-left: 1.5rem; padding-right: 1.5rem; } body.rtl section.broll .video .duration { left: auto; right: 0; margin: 0 6px 6px 0; }body.rtl section.broll .video .icon-playhead { margin-right: 0; margin-left: .5rem; } body.rtl section.broll .thumb.score-wrapper .article_type{ position: absolute; bottom: 0; right: 0; left: unset; padding: 2px 5px; font-size: 13px; background-color: #bf1313; color: #FFF; margin: 0 6px 10px 0; border-radius: 4px; } /* Scoring */ .hexagon-wrapper.side-wrapper .hexagon.side-wrapper { height: 50%; left: 6.7%; position: relative; top: 25%; width: 86.6%; z-index: 2; } body.rtl .hexagon-wrapper.side-wrapper .hexagon.side-wrapper { left: -6.7%; } .hexagon-wrapper.side-wrapper .hexagon.side-wrapper, .hexagon-wrapper.side-wrapper .hexagon.side-wrapper:after, .hexagon-wrapper.side-wrapper .hexagon.side-wrapper:before { background-color: #bf1313; } .hexagon-wrapper.side-wrapper .hexagon.side-wrapper:before { -webkit-transform: scale(1, 0.579) translate(70.71136%, -70.71136%) rotate(45deg); -ms-transform: scale(1, 0.579) translate(70.71136%, -70.71136%) rotate(45deg); transform: scale(1, 0.579) translate(70.71136%, -70.71136%) rotate(45deg); } .hexagon-wrapper.side-wrapper .hexagon.side-wrapper:after { -webkit-transform: scale(1, 0.579) translate(70.71136%, 70.71136%) rotate(45deg); -ms-transform: scale(1, 0.579) translate(70.71136%, 70.71136%) rotate(45deg); transform: scale(1, 0.579) translate(70.71136%, 70.71136%) rotate(45deg); } body.rtl .hexagon-wrapper.side-wrapper .hexagon.side-wrapper:before { -webkit-transform: scale(1,0.579) translate(30.35568%,-70.71136%) rotate(45deg); -webkit-transform: scale(1,0.579) translate(30.35568%,-70.71136%) rotate(45deg); -ms-transform: scale(1,0.579) translate(30.35568%,-70.71136%) rotate(45deg); transform: scale(1,0.579) translate(30.35568%,-70.71136%) rotate(45deg); } body.rtl .hexagon-wrapper.side-wrapper .hexagon.side-wrapper:after { -webkit-transform: scale(1,0.579) translate(30.35568%,70.71136%) rotate(45deg); -webkit-transform: scale(1,0.579) translate(30.35568%,70.71136%) rotate(45deg); -ms-transform: scale(1,0.579) translate(30.35568%,70.71136%) rotate(45deg); transform: scale(1,0.579) translate(30.35568%,70.71136%) rotate(45deg); } .hexagon-wrapper.side-wrapper .hexagon.side-wrapper:after, .hexagon-wrapper.side-wrapper .hexagon.side-wrapper:before { content: ''; display: block; height: 122.46%; position: absolute; -webkit-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0; width: 70.71%; z-index: 1; } .hexagon-wrapper.side-wrapper .hexagon-content.side-wrapper { color: #fff; font-family: "Inter var",sans-serif !important; text-transform: uppercase; margin: 0.2em 0 0 0; font-weight: 900; text-shadow: rgb(0 0 0 / 20%) 0px 1px 1px, rgb(0 0 0 / 10%) 0px 3px 3px; } .hexagon-wrapper.side-wrapper { font-size: 2rem; margin: 0; position: relative; height: 2.7em; width: 2.7em; min-width: 2.7em; display: inline-block; } .score-wrapper { position: relative; display: block; } .score-wrapper .video-duration, .score-wrapper .review-score { position: absolute; bottom: 0; left: 0; margin: 24px; z-index: 2; } .hexagon-wrapper.side-wrapper .hexagon-content-wrapper.side-wrapper { align-items: center; display: flex; height: 100%; justify-content: center; position: absolute; width: 100%; z-index: 3; } .little { height: 2.6em!important; width: 2.6em!important; min-width: 2.6em!important; font-size: 16px!important; margin: 10px!important; } .list-hero .hexagon-content { display: flex; flex-direction: column; align-items: center; } .list-hero .icon-logo { width: 30px; } /* Adtech */ /* Pogo styling is there just as a backup if pg fails restyiling */ div.zad{ display: flex; justify-content: center; align-items: center; transition: height 0.2s; margin-bottom: 10px; text-align: center; margin: 0 auto; } div.zad.billboard, div.zad.top { margin-top: 60px; min-height: 100px; } div.zad.halfpage, div.zad.sidebar { min-height:600px; } .zad:not(.billboard, .top) { background:#f2f2f2; } @media (min-width: 768px) { div.zad.billboard { padding-top: 80px; margin-top: 0 } } @media (min-width: 930px) { div.zad.billboard, div.zad.top { min-height: 250px; } div.zad.billboard { padding-top: 80px; margin-top: 0 } } #BackendInPageMenu { display: none; } .adkit iframe { max-width: 100%; } @media (max-width: 1600px) { body.hasSkin section.vspotlight, body.hasSkin section.popular, body.hasSkin section.broll, body.hasSkin section.stripe, body.hasSkin .hspotlight, body.hasSkin .list-content, body.hasSkin .wrap { max-width: 1098px; padding: 16px 10px; box-sizing: border-box; } body.hasSkin .page-content { max-width: 1098px; } body.hasSkin section.hero article { width: 1098px; max-width: 1098px; } } @media (max-width: 1280px) { body.hasSkin section.hero article { width: initial; } html.lock { overflow: hidden; } } /* TABLET */ @media (min-width: 641px) { aside#sidebarHeader { width: 300px; transition: width 450ms cubic-bezier(0.34,-0.09,0.45,1.18); } aside#sidebarHeader.collapsed { width: 96px; } aside#sidebarHeader.collapsed + #mainblock { width: calc(100% - 96px); margin-left: 96px; } aside#sidebarHeader.collapsed .header-toggle { right: -12px; } header { display: none; } .header-toggle { width: 24px; height: 24px; right: -12px; top: 36px; } #btnoverlay.collapsed + #mainblock { -webkit-transition-duration: 200ms; transition-duration: 200ms; width: calc(100% - 96px); transition-duration: 200ms; } #btnoverlay + #mainblock { -webkit-transition-property: width,margin-left; transition-property: width,margin-left; -webkit-transition-duration: 450ms; transition-duration: 450ms; -webkit-transition-timing-function: cubic-bezier(0.34,-0.09,0.45,1.18); transition-timing-function: cubic-bezier(0.34,-0.09,0.45,1.18); margin-left: 96px; color: #181c25; } body.iframe #btnoverlay + #mainblock { margin-left: 0; width: 100%; } .side .sidebar-header { padding: 2.15625em 24px 0 24px; -webkit-flex-basis: 80px; -ms-flex-preferred-size: 80px; flex-basis: 80px; } .sidebar-section a:before { padding-left: 5px; font-size: 14.1px; } .sidebar-section a svg { font-size: 15px; } body.rtl .sidebar-section a svg { padding-left: 2px; } } /* MOBILE */ @media (max-width: 640px) { #sidebarHeader.start { -webkit-transform: translateX(-100%); -ms-transform: translateX(-100%); transform: translateX(-100%); transition-duration: 200ms; } .fixed-header { display: none; } #sidebarHeader.start ~ #mainblock .fixed-header { display: block; } .sidebar-mobile-overlay.start { opacity: 0; z-index: -1; } aside#sidebarHeader.start .header-toggle { right: -46px; } aside#sidebarHeader.start .header-toggle svg { transition: transform 0.1s linear 0s; font-size: 0.6rem; transform: rotate(-180deg); } .sidebar-section .selected a.icon-home:before, .sidebar-section a.icon-home:before { width: 24px; padding-left: 4px; padding-right: 4px; } section.broll { padding: 0; } } /* DESKTOP */ @media (min-width: 930px) { div.zad.billboard, div.zad.top { min-height: 250px; } body, html { overflow-x: unset; } #ign-logo-wrap { display: inline-flex; position: static; transform: none; } .right-rail { display: block; } body.rtl .browseabout .region select:not(:disabled) { background-position: 12px; } .editions.desktop { display: block; } div.zad.billboard { padding-top: 12px; } body.rtl #headermenuwrapper { right: auto; left: 0; width: unset; } } /* TABLET */ @media (min-width:641px) and (max-width:1280px) { #sidebarHeader.start { width: 96px; } .sidebar-mobile-overlay.start { opacity: 0; z-index: -1; } aside#sidebarHeader.start .header-toggle svg { transition: transform 0.1s linear 0s; font-size: 0.6rem; transform: rotate(-180deg); } aside#sidebarHeader.start .logodate, aside#sidebarHeader.start .ign-logo .ign-path, aside#sidebarHeader.start .sidebar-main a span, aside#sidebarHeader.start .logout, aside#sidebarHeader.start .search-modal, #sidebarHeader.start button.back label { opacity: 0; display: none; } aside#sidebarHeader.start .region { display: none; } aside#sidebarHeader.start .side .sidebar-header { padding-left: 36px; padding-right: 36px; } #loginwrapper img.userIcon { margin-left: 6px; } .side-container .sidebar-section a { padding: 8px 15px; } #loginwrapper { padding: 18px 14px; } #ignheader.start #loginwrapper .userlogged span, #ignheader.start .login-buttons .register-button { display: none; } } /* LARGE SCREEN */ @media (min-width: 1281px) { svg.ign-logo { height: 24px; } .sidebar-mobile-overlay { display: none; } #btnoverlay + #mainblock { width: calc(100% - 300px); margin-left: 300px; } #btnoverlay.collapsed + #mainblock { margin-left: 96px; } .logo-edition { display: block; } }</style>
+
+<style type="text/css">h1, h2, h3 { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; } footer#footer { display: none; } section h2 { -ms-grid-row: 1; font-size: 36px; color: #000; font-weight: 900; letter-spacing: -0.5px; line-height: 1.2em; display: block; margin: 0px 0px 18px 0px; font-family: 'Inter Var',sans-serif; } section h2.upcoming { margin: 0 auto 18px; max-width: 1200px; } section > h3 { color: #000; margin: 0px; padding: 0px; } section a { text-decoration: none; } section.hero { max-width: 1200px; display: block; margin: 0px auto; box-sizing: border-box; } section.hero article { max-width: 1200px; height: 600px; display: block; margin: 0px auto; position: relative; } section.hero .herocnt { text-align: center; position: absolute; bottom: 35px; width: 100%; background-color: rgba(0, 0, 0, 0.4); } section.hero .herocnt h3 { font-size: 40px; font-weight: bold; color: #FFF; margin: 15px; text-align: center; } section.hero .herocnt h3:hover { text-decoration: underline;} section.hero .herocnt h4 { margin: 15px; } section.hero .herocnt h3 a { color: #FFF; text-decoration: none; } section.hero .herocnt { display: block; color: #FFF; font-size: 22px; margin: 0px auto; text-align: center; text-decoration: none; padding-bottom: 8px; } section.hero a{display:block; height:100%; width:100%; } section.hero.video { background-color: #1d1e20; max-width: 100%; margin: 20px auto 0px auto; padding-bottom: 15px; height: auto; } section.hero.video article { height: auto; position: relative; } section.hero.video h2 { font-size: 48px; line-height: 48px; color: #FFF; padding: 20px 0px 12px 0px; max-width: 960px; margin: 0px auto; } section.hero div.vplayer { position: relative; height: 0; overflow: visible; padding-bottom: 48.25%; max-width: 960px; margin: 0px auto; } div.vplayer > iframe { border: 0px; width: 100%; height: 100%; position: absolute; top: 0; left: 0; max-height: 540px; box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.25); border-radius: 3px; } section.vspotlight, section.popular { display: block; padding: 32px 0px; margin: 0px auto; width: 100%; box-sizing: border-box; } section.popular { max-width: 1200px; } section.vspotlight { display: table; } section.vspotlight article, section.hspotlight article, section.upcoming article { display: table-cell; width: 25%; vertical-align: top; position: relative; overflow: hidden; } section.upcoming article { width: 16%; } article a.thumb { box-sizing: border-box; position: relative; overflow: hidden; display: block; } section.vspotlight article.p1 a.thumb, section.hspotlight article.p1 a.thumb, section.upcoming article.p1 a.thumb { margin-left: 0px; } section.vspotlight article.p4 a.thumb, section.hspotlight article.p4 a.thumb, section.upcoming article.p5 a.thumb { margin-right: 0px; } body.rtl section.vspotlight article.p1 a.thumb, body.rtl section.hspotlight article.p1 a.thumb, body.rtl section.upcoming article.p1 a.thumb { margin-left: 12px; margin-right: 0; } body.rtl section.vspotlight article.p4 a.thumb, body.rtl section.hspotlight article.p4 a.thumb { margin-right: 12px; margin-left: 0; } section.vspotlight article img, section.hspotlight article img, section.upcoming article img { width: 100%; min-width: 100%; transition: transform .5s ease-out; border-radius: 4px; display: block; object-fit: cover; object-position: center; } section.vspotlight article img { height: 475px; } section.hspotlight article img { height: 160px; } section.upcoming article img { height: 200px;} section.vspotlight img.thumb:hover { -moz-transform:scale(1.04);-webkit-transform:scale(1.04);transform:scale(1.04);transition:transform .75s ease-in-out } section.vspotlight .caption { border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; position: absolute; bottom: 0px; width: 100%; margin: 0px; padding: 24px; min-height: 66px; box-sizing: border-box; background-color: rgba(34,63,90, 0.75); color: #FFF; font-size: 18px; line-height: 1.25; font-weight: 900; letter-spacing: 0.005em } section.vspotlight .caption a { color: #FFF; } section.vspotlight .caption:hover {text-decoration: underline;} section.hspotlight, section.upcoming { display: block; padding: 16px 0px; } section.hspotlight > div.wrap, section.upcoming > div.wrap { max-width: 1200px; margin: 0px auto; } section.hspotlight .caption, section.upcoming .caption { display: block; margin: 12px 12px 0px 12px; font-size: 16px; font-weight: bold; line-height: 22px; color: #252627; } section.hspotlight .p1 .caption, section.upcoming .p1 .caption, section.upcoming .p1 h6 { margin-left: 0px; } body.rtl section.hspotlight .p1 .caption, body.rtl section.upcoming .p1 .caption { margin-left: 12px; margin-right: 0; } section.upcoming h6 { margin: 15px 0px; font: 14px 'Inter Var', sans-serif, bold; background: #bf1313; position: absolute; color: white; padding: 7px 10px 5px 20px; right: 0; opacity: 0.85; border-top-left-radius: 3px; border-bottom-left-radius: 3px; } body.rtl section.upcoming h6 { border-top-left-radius: 0px; border-bottom-left-radius: 0px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; right: auto; left: 0; } section.hspotlight .caption a, section.upcoming .caption a { color: #252627; text-decoration: none; } section.hspotlight .caption a:hover, section.upcoming .caption a:hover { text-decoration: underline;} section.hspotlight img.thumb:hover { opacity: 0.85; } section.broll { display: -ms-grid; grid-template-columns: [mainContent-start] auto [mainContent-end rightRail-start] 320px [rightRail-end]; display: grid; margin: 0 auto; -ms-grid-columns: auto 320px; max-width: 1200px; grid-gap: 1.5rem; } section.broll div.tbl { grid-area: mainContent; -ms-grid-column: 1; -ms-grid-row: 2; margin-right: 0; } section.broll div.side-ad-trail { grid-area: rightRail; -ms-grid-row: 2; -ms-grid-column: 2; } section.hpcommerce { margin-top: 12px; margin-bottom: 12px; } section.hpcommerce div.tbl { background-color: rgba(138, 147, 153, 0.25); border-radius: 8px; padding: 12px; color: #181c25; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 3px 3px rgba(0, 0, 0, 0.1); width: 100%; box-sizing: border-box; } section.hpcommerce div.tbl .divider { box-shadow: 0px 1px 0px 0px rgba(138, 147, 153, 0.25); } section.hpcommerce div.m a.comments { font-size: 0.5625rem; letter-spacing: 0.06em; color: #41495a; line-height: 1.35; text-transform: uppercase; font-weight: 700; } section.hpcommerce div.m, section.hpcommerce div.t { border-bottom: 0px; } section.hpcommerce.broll div.m { vertical-align: middle; } section.hpcommerce.broll h3 a { font-size: 0.9375rem; } section.hpcommerce a .ign-icon.icon-top-right-arrow { background-size: 100%; cursor: inherit; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; aspect-ratio: 1 / 1; width: 1em; height: 1em; display: inline-block; -webkit-flex-shrink: 0; -ms-flex-negative: 0; flex-shrink: 0; font-size: 0.75rem; } section.hpcommerce.broll div.m, section.broll div.t { padding-top: 15px; padding-bottom: 15px; } article a.thumb { box-sizing: border-box; margin: 0 12px; position: relative; overflow: hidden; display: block; } .tbl a.thumb { margin: 0; } /* Adtech */ /* Sticky mrecs on right news trail */ .side-ad-trail > div{ margin-bottom: 8px; } .ad-wrapper {top: 65px; position: sticky; position: -webkit-sticky; } @media (max-width: 1200px) { .hero { background-size: cover; background-repeat: no-repeat; background-position: center; height: 0; width: 100%; padding-bottom: 56.25%; } section.hero { margin-bottom: 90px; } section.hero.video { padding-bottom: 50px; } section.hero.video h2 { font-size: 26px; line-height: 26px; } section.hero .herocnt { display: block; background-color: #000; position: absolute; text-align: center; margin: 0 auto; width: 100%; bottom: -85px; } section.hero .herocnt h3 { font-size: 20px; } section.hero .herocnt .deck { font-size: 14px; margin: 0 auto; max-width: 300px; } section.hero .herocnt a.deck { font-size: 14px; } section.hero article { height: 0!important; } section.broll h3 { margin: 0 0 6px 0; } section.broll h3 a { font-size: 14px; } } @media (max-width: 860px) { section.vspotlight article img { height: 360px; } section.broll div.tbl { margin-right: 0; } section.broll { display: block!important; } section.broll .side-ad-trail { max-width: 320px; margin: 0 auto; } section.broll img.thumb { max-width: 100%; max-height: 100%; } section.broll div.t, section.upcoming article.card { display: block; width: 100%; max-width: 100%; padding-top: 25px; border-bottom: none; padding-bottom:0px; } section.broll div.m { display: block; width: 100%; max-width: 100%; padding-top: 25px; padding-bottom: 25px; border-bottom: solid 1px rgba(37, 38, 39, 0.15); } section.broll .article.PROMOTED div.m { padding-left: 1rem; padding-right: 1rem; } section.upcoming article.card { margin: 0 12px 12px calc(5% + 5px); display: inline-block; width: 200px; padding-top: 0; } section.upcoming article.p1 { margin-left: 15px; } section.upcoming .wrap { padding: 0; } section.upcoming h2 { white-space: normal; } } @media (max-width: 768px) { /*.hero { background-size:contain; background-repeat:no-repeat; background-position:center; } */ #ignheader .page-content { margin-top: 0px; } section.vspotlight img.thumb { max-width: 100%; } section.vspotlight article img { height: 475px; } section.vspotlight, section.upcoming, section.upcoming .wrap { white-space: nowrap; display: inline-block; width: 100%; overflow-x: scroll; } section.vspotlight article:first-child { margin: 0 12px 0 calc(10% + 12px); } section.vspotlight article, section.hspotlight article { border-radius: 4px; overflow: hidden; display: inline-block; white-space: initial; width: calc(80% - 24px); margin: 0 12px; } section.vspotlight .caption { background-color: rgba(68,67,146, 0.75); font-size: 24px; font-weight: 900; line-height: 1.21em; font-family: 'Inter Var',sans-serif; text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; color: #fff; min-height: 110px; } section.hspotlight > div.wrap { display: flex; flex-wrap: wrap; max-width: 100%; } section.hspotlight > div.wrap h2 { font-size: 30px; width: 100%; } section.hspotlight article { flex-basis: 40%; flex-grow: 1; margin: 0 10px; } section.hspotlight article:nth-of-type(even) { margin-left: 12px; margin-right: 0; } section.hspotlight article:nth-of-type(odd) { margin-right: 12px; margin-left: 0; } body.rtl section.hspotlight article:nth-of-type(even) { margin-left: 0px; margin-right: 12px; } body.rtl section.hspotlight article:nth-of-type(odd) { margin-right: 0px; margin-left: 12px; } section.hspotlight article:nth-child(1), section.hspotlight article:nth-child(2) { margin-bottom: 32px; } section.hspotlight article img { height: 25vw; } section.upcoming article img { background: #f5f5f5; object-fit: cover; object-position: left; } body.rtl section.upcoming article img { object-position: right; } #adkit_mrec1, #adkit_mrec2, #adkit_rectangle { width: 300px; float: unset; top: 65px; } article a.thumb { margin: 0; } section.hero.video article { position: relative; display: inline; } section.hspotlight .caption, section.upcoming .caption { font-size: 15.2px; font-weight: 500; line-height: 1.33em; color: #252627; margin-left: 0; margin-right: 0; } section.upcoming h2, section.hero.video h2, section.broll > h2 { padding-left: 15px; padding-right: 15px; } section.upcoming h2 { font-size: 30px; } section.upcoming .caption a { white-space: normal; } }</style>
+
+
+
+<script type="text/javascript">
+  (function(b){b.loadCSS||(b.loadCSS=function(){});var c=loadCSS.relpreload={};c.support=function(){try{var a=b.document.createElement("link").relList.supports("preload")}catch(e){a=!1}return function(){return a}}();c.bindMediaToggle=function(a){function b(){a.addEventListener?a.removeEventListener("load",b):a.attachEvent&&a.detachEvent("onload",b);a.setAttribute("onload",null);a.media=c}var c=a.media||"all";a.addEventListener?a.addEventListener("load",b):a.attachEvent&&a.attachEvent("onload",b);setTimeout(function(){a.rel=
+"stylesheet";a.media="only x"});setTimeout(b,3E3)};c.poly=function(){if(!c.support())for(var a=b.document.getElementsByTagName("link"),e=0;e<a.length;e++){var d=a[e];"preload"!==d.rel||"style"!==d.getAttribute("as")||d.getAttribute("data-loadcss")||(d.setAttribute("data-loadcss",!0),c.bindMediaToggle(d))}};if(!c.support()){c.poly();var f=b.setInterval(c.poly,500);b.addEventListener?b.addEventListener("load",function(){c.poly();b.clearInterval(f)}):b.attachEvent&&b.attachEvent("onload",function(){c.poly();
+b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.loadCSS=loadCSS})("undefined"!==typeof global?global:this);
+</script>
+<link rel="preconnect" href="https://tpc.googlesyndication.com">
+
+
+<script>var ChessKit= ChessKit || {}; ChessKit.data = {categories:[], platforms:[], pagetype:["homepage"], article_id:""};</script>
+<script type="text/javascript">var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var zad = zad || {}; zad.cmd = zad.cmd || [];
+window.zadConfig={"dfp": "/22856986814/IGN/IGN_ROS_", "OOPs": ["interstitial"], "OOPsAppendSuffix": true, "GPTWebInterstitial": false, "autorefresh": 30, "prebid": false, "amazon": false, "navegg": false, "tailtarget": false, "lotame": false, "dependencies": null, "libs": null, "gdprLibs": null, "pageTargeting": {"platforms": [], "tags": [], "page": "homepage", "special": "", "type": "general", "lang": "en", "article_id": ""}, "titleTargeting": true, "lazy": true};window.zadSlotConfig=null;</script><script type="text/javascript" src="/s/js/zad.js?562" async="true"></script>
+<script type="text/javascript" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async="true"></script>
+    
+</head>
+
+<body class="">
+<div class="page-wrapper">
+<aside id="sidebarHeader" class="hide start">
+<div id="ignheader" class="start">
+  <button class="header-toggle" type="button" title="Toggle Sidebar"><svg class="sidebar-icon icon-left-chevron" focusable="false" viewBox="0 0 32 32" aria-hidden="true" role="presentation" fill="none" stroke-width="4" style="transition: transform 0.1s linear 0s; font-size: 0.6rem;"><path d="M22 2 7.86 16.14 22 30.28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+  <div class="side-container">
+    <div class='side home bar-1'>
+              <div class="sidebar-header">
+                <div class="logo-edition">
+                <a id="headerlogo" href='https://in.ign.com/'>
+                  <svg class="ign-logo" focusable="false" viewBox="0 0 76 24" aria-hidden="false" role="img"><title>IGN Logo</title><path class="dpad" fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path class="ign-path" fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg>
+                </a>
+                <div class="logodate">India</div>
+                </div>
+              </div><div class="sidebar-main"><ul class="sidebar-section home"><li><a class="icon-home" href='https://in.ign.com/'><span>Home</span></a></li><li class=""><a class="iconsvg"  href="/india" data-submenu="bar-3"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M292.8,303.6l-0.5-0.5C280,292.8,268.4,288,256,288h-1.7c-13,0-24.8,5.2-35.1,15.5L180,344.3
+			c-12.1,12.1-17.3,30-13.5,46.6l18.7,81.7l0,0.1c5.8,23.2,25.4,38.8,48.6,38.8h42.5c22.7,0,44.3-16.6,50.3-38.7l18.8-81.9
+			c3.7-16.7-1.5-34.5-13.6-46.6L292.8,303.6z M307.5,366.7L307.5,366.7c3.5,3.6,6.5,9.9,5.2,16.4L294,464.7l-0.1,0.4
+			c-1.2,7-8.7,13.4-15.9,13.4h-42.5c-6.7,0-14.6-4.2-15.9-13.3l0-0.3l-18.8-81.8c-1.3-6.8,0.1-11.3,5.1-16.3l40.8-40.8
+			c3.6-3.6,7-5,12.6-5c2,0,5,1.2,8.4,4L307.5,366.7z"/>
+		<path d="M219.1,207.6l0.5,0.5c12.3,10.3,23.9,15.1,36.4,15.1h1.7c13,0,24.8-5.2,35.1-15.5l39.2-40.9c12.1-12.1,17.3-30,13.5-46.6
+			l-18.7-81.7l0-0.1c-5.8-23.2-25.4-38.8-48.6-38.8h-42.5c-22.7,0-44.3,16.6-50.3,38.7l-18.8,81.9c-3.7,16.7,1.5,34.5,13.6,46.6
+			L219.1,207.6z M204.4,144.4L204.4,144.4c-3.5-3.6-6.5-9.9-5.2-16.4l18.7-81.6l0.1-0.4c1.2-7,8.7-13.4,15.9-13.4h42.5
+			c6.7,0,14.6,4.2,15.9,13.3l0,0.3L311,128c1.3,6.8-0.1,11.3-5.1,16.3l-40.8,40.8c-3.6,3.6-7,5-12.6,5c-2,0-5-1.2-8.4-4L204.4,144.4
+			z"/>
+	</g>
+	<g>
+		<path d="M303.9,218.7l-0.5,0.5c-10.3,12.3-15.1,23.9-15.1,36.4v1.7c0,13,5.2,24.8,15.5,35.1l40.9,39.2
+			c12.1,12.1,30,17.3,46.6,13.5l81.7-18.7l0.1,0c23.2-5.8,38.8-25.4,38.8-48.6v-42.5c0-22.7-16.6-44.3-38.7-50.3l-81.9-18.8
+			c-16.7-3.7-34.5,1.5-46.6,13.6L303.9,218.7z M367.1,204L367.1,204c3.6-3.5,9.9-6.5,16.4-5.2l81.6,18.7l0.4,0.1
+			c7,1.2,13.4,8.7,13.4,15.9V276c0,6.7-4.2,14.6-13.3,15.9l-0.3,0l-81.8,18.8c-6.8,1.3-11.3-0.1-16.3-5.1l-40.8-40.8
+			c-3.6-3.6-5-7-5-12.6c0-2,1.2-5,4-8.4L367.1,204z"/>
+		<path d="M208,292.4l0.5-0.5c10.3-12.3,15.1-23.9,15.1-36.4v-1.7c0-13-5.2-24.8-15.5-35.1l-40.9-39.2c-12.1-12.1-30-17.3-46.6-13.5
+			l-81.7,18.7l-0.1,0C15.5,190.6,0,210.1,0,233.4V276c0,22.7,16.6,44.3,38.7,50.3l81.9,18.8c16.7,3.7,34.5-1.5,46.6-13.6L208,292.4z
+			 M144.8,307.1L144.8,307.1c-3.6,3.5-9.9,6.5-16.4,5.2l-81.6-18.7l-0.4-0.1c-7-1.2-13.4-8.7-13.4-15.9v-42.5
+			c0-6.7,4.2-14.6,13.3-15.9l0.3,0l81.8-18.8c6.8-1.3,11.3,0.1,16.3,5.1l40.8,40.8c3.6,3.6,5,7,5,12.6c0,2-1.2,5-4,8.4L144.8,307.1z
+			"/>
+	</g>
+</g>
+</svg>
+<span>IGNdia</span></a></li><li class=""><a class="iconsvg"  href="https://in.ign.com/ign-india-reviews" data-submenu="bar-90"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 443.6 512.7" style="enable-background:new 0 0 443.6 512.7;" xml:space="preserve">
+<g>
+	<path d="M443.6,146.3c0.2-12.4-6.6-24.7-17.4-31.3L241.4,5.8c-5.9-4-11.9-5.8-19.5-5.8c-6.5,0-14.1,2.3-19.4,5.8L17.7,114.9
+		C5.5,121.2,0,135.1,0,146.2v220.3c0,12.6,6.9,24.9,17.6,31.2l184.8,109.2c5.9,4,11.9,5.8,19.5,5.8c6.5,0,14.1-2.3,19.4-5.8
+		l184.6-109.1c12.2-6.2,17.7-20.1,17.7-31.3L443.6,146.3z M224.5,32.9l184.7,109.2l0.3,0.2c1.9,1,2.2,2.9,2.2,3.9v221.4
+		c-0.2,1-0.7,2.2-2.2,3l-0.1,0.1l-185,109.3c-1.9,0.9-3.5,0.9-5.3,0L34.4,370.7l-0.3-0.2c-1.9-1-2.2-2.9-2.2-3.9V146.2
+		c0-0.8,0.2-2.9,2.3-4l0.1-0.1L219.2,32.9C221.1,32,222.6,32,224.5,32.9z"/>
+	<path d="M263.9,351.4h-80.7c-9,0-15.1,6.8-15.1,16.8c0,9,6.8,15.1,16.8,15.1h80.7c7.5,0,15.1-5.2,15.1-15.1
+		C280.7,358.6,273.5,351.4,263.9,351.4z"/>
+	<path d="M134.5,272.3H311c7.5,0,15.1-5.2,15.1-15.1c0-9.6-7.2-16.8-16.8-16.8H134.5c-9.6,0-16.8,7.2-16.8,16.8
+		C117.7,266.5,126.4,272.3,134.5,272.3z"/>
+	<path d="M183.2,161.4h80.7c9.8,0,15.1-7.8,15.1-15.1c0-7.6-7-16.8-15.1-16.8h-80.7c-9.8,0-15.1,7.8-15.1,15.1
+		C168.1,154.6,174.2,161.4,183.2,161.4z"/>
+</g>
+</svg>
+<span>Reviews</span></a></li><li class=""><a class="iconsvg"  href="/tv" data-submenu="bar-63"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="regular" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 394.6" style="enable-background:new 0 0 512 394.6;" xml:space="preserve">
+<path d="M212,108.9c-10.6-6.3-24.2,1.3-24.2,13.7v149.3c0,12.5,13.6,20,24.2,13.8l125.2-74.6c10.4-6.2,10.4-21.3,0-27.5L212,108.9z
+	 M219.8,243.8v-93l78,46.6L219.8,243.8z"/>
+<path d="M424.6,11.1c-99.3-14.7-237.9-14.7-337.2,0c-39.7,5.9-71,37.1-77.8,77.6c-12.7,75.2-12.7,142.2,0,217.3
+	c6.8,40.5,38.1,71.7,77.8,77.6c49.7,7.4,109.3,11.1,168.9,11.1c59.4,0,118.8-3.7,168.4-11.1c39.7-5.9,71-37.1,77.8-77.6
+	c12.7-75.2,12.7-142.2,0-217.3C495.6,48.1,464.3,16.9,424.6,11.1L424.6,11.1z M470.9,300.6c-4.5,26.8-25,47.4-51,51.2
+	c-96.4,14.3-231.2,14.3-327.9,0c-26-3.9-46.5-24.4-51-51.2c-12.2-72.4-12.2-134.2,0-206.7c4.5-26.8,25-47.4,51-51.2
+	C140.4,35.5,198.2,32,256,32c57.8,0,115.7,3.6,163.9,10.7c26,3.9,46.5,24.4,51,51.2C483.2,166.4,483.2,228.2,470.9,300.6
+	L470.9,300.6z"/>
+</svg>
+<span>TV</span></a></li><li class=""><a class="iconsvg"  href="/movie" data-submenu="bar-40"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="_x31_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 522 436.6" style="enable-background:new 0 0 522 436.6;" xml:space="preserve">
+<g>
+	<path d="M495.7,244.6h10.7c8.6,0,15.7-7,15.7-15.7v-42.7c0-28.2-20.1-51.8-46.7-57.2L440,25c-3.1-9.2-10.2-17-19.3-21.3
+		c-9.1-4.3-19.6-4.8-28.7-1.4L55.3,128C24.5,129.5,0,155.1,0,186.2v42.7c0,8.6,7,15.7,15.7,15.7h10.7c20.8,0,37.7,16.9,37.7,37.7
+		s-16.9,37.7-37.7,37.7H15.7c-8.6,0-15.7,7-15.7,15.7v42.7c0,32.2,26.2,58.3,58.3,58.3h405.3c15.6,0,30.2-6.1,41.2-17.1
+		c11-11,17.1-25.7,17.1-41.2v-42.7c0-8.6-7-15.7-15.7-15.7h-10.7c-10.1,0-19.5-3.9-26.6-11c-7.1-7.1-11-16.6-11-26.6
+		C458,261.4,474.9,244.6,495.7,244.6z M426.7,282.2c0,18.4,7.2,35.8,20.2,48.8c11.8,11.8,27.2,18.8,43.8,20v27.2
+		c0,14.9-12.1,27-27,27H202v-5.7c0-8.6-7-15.7-15.7-15.7s-15.7,7-15.7,15.7v5.7H58.3c-14.9,0-27-12.1-27-27V351
+		c35.7-2.6,64-32.5,64-68.8s-28.3-66.3-64-68.8v-27.2c0-14.9,12.1-27,27-27h112.3v5.7c0,8.6,7,15.7,15.7,15.7s15.7-7,15.7-15.7v-5.7
+		h261.7c14.9,0,27,12.1,27,27v27.2C454.9,216,426.7,245.9,426.7,282.2z M145,127.9L403,31.6c1.4-0.5,3-0.4,4.5,0.3
+		c1.4,0.7,2.5,1.8,2.9,3.2l31.5,92.8H145z"/>
+	<path d="M186.3,293.6c-8.6,0-15.7,7-15.7,15.7v36.1c0,8.6,7,15.7,15.7,15.7s15.7-7,15.7-15.6v-36.1
+		C202,300.7,195,293.6,186.3,293.6z"/>
+	<path d="M186.3,203.4c-8.6,0-15.7,7-15.7,15.7v36.1c0,8.6,7,15.7,15.7,15.7s15.7-7,15.7-15.7v-36.1
+		C202,210.4,195,203.4,186.3,203.4z"/>
+</g>
+</svg>
+<span>Movies</span></a></li><li class=""><a class="iconsvg"  href="/pc" data-submenu="bar-83"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 426.7" style="enable-background:new 0 0 512 426.7;" xml:space="preserve">
+<path d="M474.7,0h-32H69.3h-32C16.7,0,0,16.8,0,37.4v266.7c0,20.6,16.7,37.3,37.3,37.3H240v53.3h-74.7c-8.8,0-16,7.2-16,16
+	s7.2,16,16,16H256h90.7c8.8,0,16-7.2,16-16s-7.2-16-16-16H272v-53.3h202.7c20.6,0,37.3-16.7,37.3-37.3V37.4
+	C512,16.8,495.3,0,474.7,0z M480,304c0,2.9-2.4,5.3-5.3,5.3H256H37.3c-2.9,0-5.3-2.4-5.3-5.3V37.4c0-2.9,2.4-5.3,5.3-5.3h32h373.3
+	h32c2.9,0,5.3,2.4,5.3,5.3V304H480z"/>
+<g>
+	<path d="M117.9,77.6h43.3c41.8,0,69.2,22.4,69.2,60.1c0,37.5-26.7,62.1-68.5,62.1h-21.8v62.6h-22.2
+		C117.9,262.4,117.9,77.6,117.9,77.6z M208.2,138.3c0-25.1-17.4-39-44.9-39h-23.1v79.2h23.1C190.8,178.5,208.2,163.6,208.2,138.3z"
+		/>
+	<path d="M347.2,266.2c-46.2,0-87.8-37.2-87.8-96.4c0-58.9,41.6-95.9,87.8-95.9c20.2,0,35.7,5.7,46.9,12.6v24.4
+		c-14-9.2-27.1-14.9-46-14.9C315,96,282,123.4,282,170c0,46.2,33.1,74,66.1,74c18.9,0,31.8-6,46-15.2v24.6
+		C382.6,260.5,367.4,266.2,347.2,266.2z"/>
+</g>
+</svg>
+<span>PC</span></a></li><li class=""><a class="iconsvg"  href="/anime" data-submenu="bar-103"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 443.6 443.6" style="enable-background:new 0 0 443.6 443.6;" xml:space="preserve">
+<path d="M373.59,291.81l70.01-70.01l-64.97-64.97V64.97h-91.86L221.8,0l-64.97,64.97H64.97v91.86L0,221.8l64.97,64.97v91.86h91.86
+	l64.97,64.97l70.01-70.01l102.29,52.4c5.25,2.68,10.33,3.47,15.1,2.34c4.6-1.09,8.71-3.42,12.21-6.92c3.51-3.5,5.83-7.61,6.92-12.21
+	c1.13-4.77,0.34-9.86-2.34-15.11L373.59,291.81z M45.07,221.8l51.84-51.84V96.9h73.06l51.84-51.84l51.84,51.84h73.06v73.06
+	l51.83,51.84l-64.09,64.09l51.61,100.22L285.23,335.1l-63.43,63.43l-51.84-51.84H96.9v-73.06L45.07,221.8z"/>
+</svg>
+<span>Anime</span></a></li><li class=""><a class="iconsvg" target='_blank' href="amazon-deals" data-submenu="bar-104"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 464.6" style="enable-background:new 0 0 512 464.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1D1D1B;}
+</style>
+<g>
+	<path class="st0" d="M302.8,119.8c-13,1.4-26,1.4-40.4,4.3c-21.6,2.9-43.3,7.2-62,15.9c-34.6,14.4-59.2,44.7-59.2,89.5
+		c0,56.3,36.1,85.1,82.2,85.1c15.9,0,27.4-1.4,39-4.3c18.8-5.8,33.2-15.9,51.9-34.6c10.1,14.4,13,21.6,31.7,36.1
+		c4.3,1.4,10.1,1.4,13-1.4c11.5-10.1,31.7-26,41.8-36.1c4.3-4.3,4.3-10.1,1.4-14.4c-10.1-13-21.6-24.5-21.6-50.5v-88
+		c0-36.1,2.9-69.3-23.1-93.8C336,7.2,301.3,0,275.4,0c-4.3,0-7.2,0-11.5,0c-49.1,2.9-99.6,23.1-111.1,83.7
+		c-1.4,7.2,4.3,10.1,7.2,11.5l53.4,7.2c5.8-1.4,8.7-5.8,10.1-10.1c4.3-20.2,21.6-31.7,40.4-33.2c1.4,0,1.4,0,4.3,0
+		c11.5,0,23.1,4.3,30.3,14.4c5.8,10.1,5.8,24.5,5.8,39L302.8,119.8L302.8,119.8z M292.7,232.3c-7.2,13-18.8,21.6-30.3,24.5
+		c-1.4,0-4.3,1.4-7.2,1.4c-21.6,0-33.2-15.9-33.2-40.4c0-30.3,18.8-44.7,40.4-51.9c13-2.9,26-4.3,40.4-4.3v11.5
+		C302.8,196.2,304.2,213.5,292.7,232.3z M512,365v2.9c0,18.8-10.1,54.8-33.2,73.6c-4.3,2.9-8.7,1.4-7.2-4.3
+		c7.2-15.9,21.6-54.8,14.4-63.5c-5.8-7.2-26-5.8-44.7-4.3c-8.7,1.4-15.9,1.4-21.6,2.9c-5.8,0-5.8-4.3-1.4-7.2
+		c7.2-4.3,14.4-8.7,21.6-11.5c28.9-8.7,63.5-2.9,67.8,1.4C510.6,357.8,512,360.7,512,365z M462.9,401.1
+		c-7.2,5.8-14.4,10.1-21.6,14.4c-54.8,33.2-124.1,49.1-186.1,49.1c-98.1,0-186.1-36.1-252.5-96.7c-5.8-4.3-1.4-11.5,5.8-7.2
+		c72.1,41.8,160.2,67.8,252.5,67.8c57.7,0,119.8-11.5,180.4-34.6c4.3-1.4,8.7-4.3,13-5.8C464.4,383.8,473,395.3,462.9,401.1z"/>
+</g>
+</svg>
+<span>IGN Deals</span></a></li><li class="more toggletopmore"><a href="NONE" class="iconsvg submenu" data-submenu="bar-MORE"><?xml version="1.0" encoding="utf-8"?><svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M368.7,288.3c17.7,0,32.2-14.5,32.2-32.2c0-17.7-14.5-32.2-32.2-32.2s-32.2,14.5-32.2,32.2 C336.5,273.8,351,288.3,368.7,288.3z M256,288.3c17.7,0,32.2-14.5,32.2-32.2c0-17.7-14.5-32.2-32.2-32.2s-32.2,14.5-32.2,32.2 C223.8,273.8,238.3,288.3,256,288.3z M143.3,288.3c17.7,0,32.2-14.5,32.2-32.2c0-17.7-14.5-32.2-32.2-32.2s-32.2,14.5-32.2,32.2 C111.1,273.8,125.6,288.3,143.3,288.3z"/><g><path d="M256,512c-68.4,0-132.7-26.6-181-75C26.6,388.7,0,324.4,0,256c0-68.4,26.6-132.7,75-181C123.3,26.6,187.6,0,256,0 s132.7,26.6,181,75c48.4,48.4,75,112.6,75,181c0,68.4-26.6,132.7-75,181S324.4,512,256,512z M256,32.3 c-59.8,0-115.9,23.3-158.2,65.5C55.6,140.1,32.3,196.2,32.3,256c0,59.8,23.3,115.9,65.5,158.2c42.2,42.2,98.4,65.5,158.2,65.5 s115.9-23.3,158.2-65.5c42.2-42.3,65.5-98.4,65.5-158.2c0-59.8-23.3-115.9-65.5-158.2C371.9,55.6,315.8,32.3,256,32.3z"/></g></svg><span>More</span><svg class="sidebar-icon icon-right-chevron" focusable="false" viewBox="0 0 32 32" aria-hidden="true" role="presentation" fill="none" stroke-width="2"><path d="m10 2 14.14 14.14L10 30.28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></a></li><div class="divider"></div><li class="search"><a><svg height="512pt" viewBox="0 0 512.016 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m202.667969 405.339844c-111.746094 0-202.667969-90.921875-202.667969-202.664063 0-111.746093 90.921875-202.6679685 202.667969-202.6679685 111.742187 0 202.664062 90.9218755 202.664062 202.6679685 0 111.742188-90.921875 202.664063-202.664062 202.664063zm0-373.332032c-94.101563 0-170.667969 76.566407-170.667969 170.667969 0 94.101563 76.566406 170.664063 170.667969 170.664063 94.101562 0 170.664062-76.5625 170.664062-170.664063 0-94.101562-76.5625-170.667969-170.664062-170.667969zm0 0"/><path d="m496 512.007812c-4.097656 0-8.191406-1.558593-11.308594-4.691406l-161.277344-161.28125c-6.25-6.25-6.25-16.382812 0-22.636718 6.25-6.25 16.382813-6.25 22.632813 0l161.28125 161.28125c6.25 6.25 6.25 16.382812 0 22.636718-3.136719 3.132813-7.230469 4.691406-11.328125 4.691406zm0 0"/></svg><form action='https://in.ign.com/se/'class="search-modal"><div class="search-input"><input type="hidden" name="model" value=""><input name="q" id="search-input" type="text" maxlength="60" placeholder='Search on IGN India' autocomplete="off" value=""></div><button role="button" class="button button-primary">Search</button></form></a></li></ul></div></div><div class="side bar-MORE">
+              <div class="sidebar-header">
+              <button class="back" data-parent="bar-1"><svg class="sidebar-icon icon-left-chevron" focusable="false" viewBox="0 0 32 32" aria-hidden="true" role="presentation" fill="none" stroke-width="2"><path d="M22 2 7.86 16.14 22 30.28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg><label>Home</label></button>
+              </div>
+              <div class="sidebar-main">
+              <h3>More</h3>
+              <ul class="sidebar-section"><li class=""><a class="iconsvg"  href="https://in.ign.com/india/174777/page/welcome-to-ign-india" data-submenu="bar-26"><span>About IGN India</span></a><style>
+#div-clmb-ctn-195688-1{margin-top:20px;}
+</style></li><li class=""><a class="iconsvg"  href="https://in.ign.com/india/174779/page/contact-us" data-submenu="bar-27"><span>Contact the Editorial Staff</span></a></li><li class=""><a class="iconsvg" target='_blank' href="mailto:ign@forkmediagroup.com" data-submenu="bar-28"><span>Advertise</span></a></li><li class=""><a class="iconsvg" target='_blank' href="http://corp.ign.com/press" data-submenu="bar-29"><span>Press</span></a></li><li class=""><a class="iconsvg"  href="/page/55902/user-agreement" data-submenu="bar-30"><span>User Agreement</span></a></li><li class=""><a class="iconsvg"  href="/page/55901/privacy-policy" data-submenu="bar-31"><span>Privacy Policy</span></a></li><li class=""><a class="iconsvg"  href="/india/79422/page/cookies" data-submenu="bar-32"><span>Cookie Policy</span></a></li><li class=""><a class="iconsvg"  href="/en/articles/rss" data-submenu="bar-33"><span>RSS</span></a></li><div class="divider"></div><li class="legal"><a href="https://world.ziffdavis.com"><svg id="zdlogoblue" data-name="Ziff Davis Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 298.63 174.94"><path d="M102,15.57H83.2V.09H102ZM83.2,26.16H102V94.57H83.2Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M117,38.73H105.72V26.16H117v-5.3C117,8.69,124.51.09,139.86.09c3.31,0,6.75.4,9.92.53v14a58.78,58.78,0,0,0-6.88-.4c-5.16,0-7.14,2.12-7.14,7.81v4.1h13V38.73h-13V94.57H117Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M154.59,38.73H143.34V26.16h11.25v-5.3c0-12.17,7.54-20.77,22.89-20.77,3.31,0,6.75.4,9.92.53v14a58.78,58.78,0,0,0-6.88-.4c-5.16,0-7.14,2.12-7.14,7.81v4.1h13V38.73h-13V94.57H154.59Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M31.37,73.6l-2.95,3.5H50.91a31.52,31.52,0,0,1,13.77,3,29.66,29.66,0,0,1,6.68,4.44,30.31,30.31,0,0,1,7.46,10.07H.77V78.14L4.58,73.6l3-3.57L51.44,17.56H4.75V.09H79.1V16.48L34.35,70Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M80.57,103.2h-24c5.17,5.44,7.18,13.79,7.18,24.16,0,20.9-11.54,28.31-23.57,28.31H21.65V103.2H.86v69.94H41.62c28.83,0,42.87-20.38,42.87-47.76A58.44,58.44,0,0,0,80.57,103.2Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M148.78,157.93v-35.6c0-13.69-11.37-18.06-23-19.13a68.79,68.79,0,0,0-7-.31,8.43,8.43,0,0,0-.87,0c-15.08.17-30.26,5.69-31.3,22.84h18.79c.66-7.42,5.16-10.33,12.44-10.33,6.62,0,12.17,1.32,12.17,9.29.79,15.32-45.23-1.35-45.51,29.77,0,14,10.19,20.49,23.29,20.49,8.46,0,17-2.25,23-8.46a28.37,28.37,0,0,0,1.32,6.62h19.06C149.44,170.37,148.78,164.13,148.78,157.93ZM130,146.66c0,4.23-.52,15.77-15.22,15.77-6.06,0-11.51-1.87-11.51-8.73s5.31-9,11.13-10.09,12.44-1.18,15.6-4Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M195.32,104.72,180.9,151.44h-.27l-14.42-46.72H146.49l23.43,68.42h20.9L214,104.72Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M214.38,104.72v68.42h18.79V104.72Zm0-26.06V94.15h18.79V78.66Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M277.08,132c-10.57-2.5-21.31-3.44-21.31-10.16,0-5.72,6.24-6.38,10.46-6.38,6.76,0,12.31,2,12.83,9.29h17.88c-1.45-16.81-15.35-21.83-30.19-21.83S237,107.36,237,124.83c0,12.2,10.71,15.77,21.7,18.26C272.06,145.86,280,148,280,153.7c0,6.58-7,8.73-12.3,8.73-7.28,0-14.42-3.46-14.42-11.54H235.39C236.05,169,251.68,175,267.55,175c15.49,0,31.23-5.82,31.23-23.81C298.78,138.48,288.07,134.5,277.08,132Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M101.38,15.62H82.59V.14h18.79ZM82.59,26.21h18.79V94.62H82.59Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M116.35,38.78H105.11V26.21h11.24V20.92C116.35,8.74,123.9.14,139.24.14c3.31,0,6.75.4,9.93.53v14a58.78,58.78,0,0,0-6.88-.4c-5.16,0-7.15,2.12-7.15,7.81v4.1h13V38.78h-13V94.62H116.35Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M154,38.78H142.73V26.21H154V20.92C154,8.74,161.52.14,176.86.14c3.31,0,6.75.4,9.93.53v14a58.78,58.78,0,0,0-6.88-.4c-5.16,0-7.15,2.12-7.15,7.81v4.1h13V38.78h-13V94.62H154Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M30.76,73.65l-3,3.5H50.29a31.56,31.56,0,0,1,13.78,3,30,30,0,0,1,6.68,4.44,30.31,30.31,0,0,1,7.46,10.07H.15V78.19L4,73.65l3-3.57L50.82,17.61H4.14V.14H78.48V16.53L33.74,70.08Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M80,103.25h-24c5.16,5.44,7.17,13.79,7.17,24.16,0,20.9-11.54,28.31-23.56,28.31H21V103.25H.24v69.94H41c28.84,0,42.87-20.38,42.87-47.76A58.49,58.49,0,0,0,80,103.25Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M148.17,158v-35.6c0-13.69-11.37-18.06-23-19.13a69.11,69.11,0,0,0-7-.31,8.14,8.14,0,0,0-.86,0c-15.08.18-30.26,5.69-31.3,22.84h18.78c.66-7.41,5.17-10.32,12.45-10.32,6.62,0,12.16,1.31,12.16,9.28.8,15.32-45.23-1.35-45.51,29.78,0,14,10.19,20.48,23.3,20.48,8.45,0,17-2.25,23-8.46a28.26,28.26,0,0,0,1.32,6.62h19.06C148.83,170.42,148.17,164.18,148.17,158Zm-18.79-11.27c0,4.23-.52,15.77-15.21,15.77-6.07,0-11.51-1.87-11.51-8.73s5.3-9,11.13-10.09,12.44-1.18,15.59-3.95Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M194.71,104.78,180.29,151.5H180l-14.42-46.72H145.87l23.43,68.41h20.9l23.15-68.41Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M213.77,104.78v68.41h18.79V104.78Zm0-26.07V94.2h18.79V78.71Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M276.47,132c-10.57-2.5-21.32-3.43-21.32-10.16,0-5.72,6.24-6.37,10.47-6.37,6.76,0,12.3,2,12.82,9.28h17.89C294.87,108,281,102.94,266.14,102.94s-29.77,4.47-29.77,21.94c0,12.2,10.71,15.77,21.69,18.26,13.38,2.78,21.32,4.89,21.32,10.61,0,6.58-7,8.73-12.3,8.73-7.28,0-14.42-3.46-14.42-11.54H234.77c.66,18.13,16.29,24.09,32.17,24.09,15.49,0,31.23-5.82,31.23-23.81C298.17,138.53,287.46,134.55,276.47,132Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path></svg></a><span class="licensee">IGN India is operated by <a href="https://forkmediagroup.com/" rel="nofollow">Fork Media Group Pvt. Ltd.</a> under license from IGN Entertainment and its affiliates.</span></li></ul></div></div>
+  </div>
+  <div class="region">
+    <div class="region-selector">
+        <select id="region-dropdown" class="region-dropdown">
+            <option value="" disabled="" selected="">Change Region</option>
+            <option data-language='US' value="https://www.ign.com/?setccpref=US">United States</option>
+            <option data-language='UK' value="https://uk.ign.com/?setccpref=UK">United Kingdom</option>
+            <option data-language='AU' value="https://au.ign.com/?setccpref=AU">Australia</option>
+            <option data-language='AFR' value="https://za.ign.com/">Africa</option>
+            <option data-language='ADR' value="https://adria.ign.com/">Adria</option>
+            <option data-language='BX' value="https://nl.ign.com/">Benelux / Dutch</option>
+            <option data-language='BR' value="https://br.ign.com/">Brazil</option>
+            <option data-language='CN' value="https://www.ign.com.cn/">China / 中国</option>
+            <option data-language='CZ' value="https://cz.ign.com/">Czechia / Slovakia</option>
+            <option data-language='FR' value="https://fr.ign.com/">France</option>
+            <option data-language='DE' value="https://de.ign.com/">Germany</option>
+            <option data-language='GR' value="https://gr.ign.com/">Greece / Ελλάδα</option>
+            <option data-language='HU' value="https://hu.ign.com/">Hungary</option>
+            <option data-language='IN' value="https://in.ign.com/">India</option>
+            <option data-language='IL' value="https://il.ign.com/">Israel</option>
+            <option data-language='IT' value="https://it.ign.com/">Italy / Italia</option>
+            <option data-language='JP' value="https://jp.ign.com/">Japan / 日本</option>
+            <option data-language='KR' value="https://kr.ign.com/">Korea / 한국</option>
+            <option data-language='LAT' value="https://latam.ign.com/">Latin America</option>
+            <option data-language='ME' value="https://me.ign.com/en/">Middle East - English</option>
+            <option data-language='AR' value="https://me.ign.com/ar/">Middle East -  الأوسطالشرق</option>
+            <option data-language='NOR' value="https://nordic.ign.com/">Nordic</option>
+            <option data-language='PL' value="https://pl.ign.com/">Poland</option>
+            <option data-language='PT' value="https://pt.ign.com/">Portugal</option>
+            <option data-language='SEA' value="https://sea.ign.com/">Southeast Asia</option>
+            <option data-language='ES' value="https://es.ign.com/">Spain / España</option>
+            <option data-language='TR' value="https://tr.ign.com/">Turkey / Türkiye</option>
+            <option data-language='INTL' value="https://world.ign.com/">world.ign.com</option>
+        </select>
+    </div>
+</div>
+  <div id="loginwrapper">
+    <a class="sidebar-item login-avatar" href="https://www.ign.com/sign-in?redirect=http%3A//in.ign.com/" type="button"><img class="userIcon" alt="" title="" src=""></img><svg class="sidebar-icon icon-profile" focusable="false" viewBox="0 0 32 32" aria-hidden="false" role="img" fill="none" stroke-width="1.5"><title>Register / Login</title><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M31 16a15 15 0 1 1-30 0 15 15 0 0 1 30 0Z"></path><path d="M10 29v-3.5a6 6 0 0 1 6-6v0a6 6 0 0 1 6 6V29"></path><path clip-rule="evenodd" d="M16 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"></path></g></svg>
+      <div class="sidebar-item-text">Register / Login</div>
+    </a>
+    <div class="login-buttons">
+      <a href="https://www.ign.com/sign-in?redirect=http%3A//in.ign.com/" target="_top" rel="nofollow" class="lightbox main button login-button">Login</a>
+      <a href="https://www.ign.com/register?redirect=http%3A//in.ign.com/" target="_top" rel="nofollow" class="button register-button">Register</a>
+    </div>
+  </div>
+
+</div>
+</aside>
+<button id="btnoverlay" type="button" title="Collapse Sidebar" class="start sidebar-mobile-overlay"></button>
+<div id="mainblock">
+<header class="fixed-header">
+  <div class="sidebar-page-header">
+    <a href="/" title="IGN" class="logo-link"><svg class="ign-logo" focusable="false" viewBox="0 0 76 24" aria-hidden="false" role="img"><title>IGN Logo</title><path class="dpad" fill="currentColor" stroke="none" d="M5.38 7.65a7.85 7.85 0 0 1 2.26-2.26c.13-1.18.31-2.26.52-3.21a10.605 10.605 0 0 0-6 6c.95-.22 2.03-.39 3.21-.52M16.34 5.36v.02c.9.59 1.67 1.37 2.27 2.27 1.18.13 2.26.31 3.21.52a10.627 10.627 0 0 0-6.02-6.01c.22.95.4 2.02.54 3.2M7.64 18.62c-.9-.59-1.67-1.37-2.27-2.27h-.03c-1.19-.14-2.26-.32-3.19-.54 1.07 2.75 3.26 4.95 6.01 6.02-.22-.95-.39-2.03-.52-3.21M18.64 16.35h-.03c-.59.9-1.37 1.67-2.27 2.27v.03c-.14 1.17-.32 2.25-.54 3.19a10.59 10.59 0 0 0 6.03-6.03c-.94.22-2 .4-3.19.54M10.04 0h3.9c.85 1.85 1.2 4.59 1.3 5.52.04.22.06.43.06.63L12 9.11 8.7 6.15c0-.17.02-.35.05-.55.1-.95.43-3.75 1.29-5.61M8.7 17.83c0 .17.02.35.05.55.1.95.43 3.75 1.29 5.61h3.9c.85-1.84 1.2-4.59 1.3-5.52.04-.22.06-.43.06-.64L12 14.87l-3.3 2.96ZM6.16 8.68c-.17 0-.35.02-.55.05-.95.12-3.75.45-5.61 1.31v3.9c1.84.85 4.59 1.19 5.52 1.3.22.04.43.06.64.06L9.11 12 6.16 8.7ZM24 10.02c-1.86-.86-4.66-1.19-5.61-1.29-.2-.03-.38-.05-.55-.05l-2.96 3.3 2.96 3.3c.2 0 .41-.02.64-.06.93-.11 3.68-.45 5.52-1.3v-3.9Z"></path><path class="ign-path" fill="currentColor" stroke="none" d="M42.83 13.9V10h10.45c1.06 0 1.93.86 1.93 1.92v4.63c0 2.38-1.91 4.36-4.33 4.36h-6.69c-4.96 0-8.97-4-8.97-8.94s4.04-8.95 8.98-8.95h10.36v4.11H44.2c-2.67 0-4.86 2.17-4.86 4.84s2.16 4.83 4.86 4.83h6.91v-2.91h-8.27ZM33.86 3h-4.07v16.02c0 1.05.86 1.91 1.91 1.91h2.15V3M74.37 3.01h-2.18v13.81s0 .08-.03.11a.29.29 0 0 1-.24.14c-.09 0-.16-.04-.25-.15L64.83 4.93a4.347 4.347 0 0 0-3.72-2.11h-.07c-2.39 0-4.32 1.93-4.32 4.32v11.88c0 1.05.86 1.91 1.91 1.91h2.17V7.14s.02-.09.04-.13a.29.29 0 0 1 .24-.14c.09 0 .18.03.24.14l6.88 12.07c.76 1.27 2.12 2.05 3.69 2.05h.07c2.39 0 4.32-1.93 4.32-4.32V4.92c0-1.05-.85-1.91-1.91-1.91"></path></svg></a>
+    <a id="current-user" href="https://www.ign.com/sign-in?redirect=http%3A//in.ign.com/" target="_top" rel="nofollow"><svg class="ign-icon icon-profile" focusable="false" viewBox="0 0 32 32" aria-hidden="true" role="presentation" fill="none" stroke-width="2"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M31 16a15 15 0 1 1-30 0 15 15 0 0 1 30 0Z"></path><path d="M10 29v-3.5a6 6 0 0 1 6-6v0a6 6 0 0 1 6 6V29"></path><path clip-rule="evenodd" d="M16 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"></path></g></svg></a>
+  </div>
+</header>
+  
+  
+  
+<div class="zad billboard" data-zadtype="billboard" data-suffix="billboard"></div>
+<div class="page-content">
+
+
+<section class="hero">
+
+  <span class="herospacer"></span>
+  
+  <article class="hero REVIEW" style="background-image: url('https://sm.ign.com/t/ign_in/screenshot/default/hp-omen-16-2024_4pan.1200.jpg')">
+	<a href="/hp-omen-16-2024-wf1025tx/203284/review/hp-omen-16-gaming-laptop-wf1025tx-finding-the-balance" class="deck">
+	  <div class="herocnt">
+	    <h3>HP Omen 16 Gaming Laptop Review</h3>
+	    <h4 class="deck">One of the first 14th Gen Intel Core gaming laptops from HP makes a compelling case for itself, after some considerations.</h4>
+	  </div>
+	</a>
+  </article>
+  
+
+</section>
+
+
+
+
+<section class="vspotlight">
+<div class="wrap">
+
+	<article class="card NEWS p1">
+    <a href="/battlegrounds-mobile-india/203887/news/bgmi-update-31-will-not-run-on-select-older-android-and-ios-devices" class="thumb">
+	  <img src="https://sm.ign.com/t/ign_in/screenshot/default/feat-2_aq5f.800.png" alt="BGMI: Update 3.1 Will Not Run on Select Older Android and iOS Devices" class="thumb" srcset="https://sm.ign.com/t/ign_in/screenshot/default/feat-2_aq5f.800.png, https://sm.ign.com/t/ign_in/screenshot/default/feat-2_aq5f.1280.png 2x">
+	  <h3 style="background-color: rgba(47,40,26, 0.75)" class="caption">BGMI: Update 3.1 Will Not Run on Select Older Android and iOS Devices</h3>
+	</a>
+  </article>
+
+	<article class="card NEWS p2">
+    <a href="/call-of-duty-warzone-mobile/203979/news/call-of-duty-warzone-mobile-is-available-now" class="thumb">
+	  <img src="https://sm.ign.com/t/ign_in/screenshot/default/mg-5_d43h.800.png" alt="Call of Duty: Warzone Mobile Is Available Now" class="thumb" srcset="https://sm.ign.com/t/ign_in/screenshot/default/mg-5_d43h.800.png, https://sm.ign.com/t/ign_in/screenshot/default/mg-5_d43h.1280.png 2x">
+	  <h3 style="background-color: rgba(225,78,61, 0.75)" class="caption">Call of Duty: Warzone Mobile Is Available Now</h3>
+	</a>
+  </article>
+
+	<article class="card NEWS p3">
+    <a href="/grand-theft-auto-vi/203941/news/dont-expect-ps5-pro-to-run-gta-6-at-60fps-tech-experts-say" class="thumb">
+	  <img src="https://sm.ign.com/t/ign_in/news/d/dont-expec/dont-expect-ps5-pro-to-run-gta-6-at-60fps-tech-experts-say_x2vg.800.jpg" alt="Don’t Expect PS5 Pro to Run GTA 6 at 60fps, Tech Experts Say" class="thumb" srcset="https://sm.ign.com/t/ign_in/news/d/dont-expec/dont-expect-ps5-pro-to-run-gta-6-at-60fps-tech-experts-say_x2vg.800.jpg, https://sm.ign.com/t/ign_in/news/d/dont-expec/dont-expect-ps5-pro-to-run-gta-6-at-60fps-tech-experts-say_x2vg.1280.jpg 2x">
+	  <h3 style="background-color: rgba(83,121,160, 0.75)" class="caption">Don’t Expect PS5 Pro to Run GTA 6 at 60fps, Tech Experts Say</h3>
+	</a>
+  </article>
+
+	<article class="card NEWS p4">
+    <a href="/call-of-duty-modern-warfare-iii/204040/news/activision-explains-why-call-of-duty-warzone-mobile-has-120-player-verdansk-and-pc-and-console-do-no" class="thumb">
+	  <img src="https://sm.ign.com/t/ign_in/news/a/activision/activision-explains-why-call-of-duty-warzone-mobile-has-120_wczb.800.jpg" alt="Activision Explains Why Call of Duty Warzone Mobile Has 120-Player Verdansk and PC and Console Do Not" class="thumb" srcset="https://sm.ign.com/t/ign_in/news/a/activision/activision-explains-why-call-of-duty-warzone-mobile-has-120_wczb.800.jpg, https://sm.ign.com/t/ign_in/news/a/activision/activision-explains-why-call-of-duty-warzone-mobile-has-120_wczb.1280.jpg 2x">
+	  <h3 style="background-color: rgba(186,136,82, 0.75)" class="caption">Activision Explains Why Call of Duty Warzone Mobile Has 120-Player Verdansk and PC and Console Do Not</h3>
+	</a>
+  </article>
+
+</div>
+</section>
+
+
+
+
+<section class="hspotlight"><div class="wrap">
+<h2>IGNdia Reviews</h2>
+
+  <article class="card REVIEW p1">
+    <a href="/asus-rog-azoth/203460/review/asus-rog-azoth-keyboard-review" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/screenshot/default/img-6897-feature_6nj5.320.jpg" alt="Asus ROG Azoth Keyboard Review" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/img-6897-feature_6nj5.320.jpg, https://sm.ign.com/t/ign_in/screenshot/default/img-6897-feature_6nj5.640.jpg 2x"></a>
+	<h3 class="caption"><a href="/asus-rog-azoth/203460/review/asus-rog-azoth-keyboard-review">Asus ROG Azoth Keyboard Review</a></h3>
+  </article>
+
+  <article class="card REVIEW p2">
+    <a href="/benq-x3100i-projector/203826/review/benq-x3100i-gaming-projector-review-worth-the-price" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/screenshot/default/benq-x3100i-gaming-projector-feature_vq4x.320.jpg" alt="BenQ X3100i Gaming Projector Review: Worth the Price" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/benq-x3100i-gaming-projector-feature_vq4x.320.jpg, https://sm.ign.com/t/ign_in/screenshot/default/benq-x3100i-gaming-projector-feature_vq4x.640.jpg 2x"></a>
+	<h3 class="caption"><a href="/benq-x3100i-projector/203826/review/benq-x3100i-gaming-projector-review-worth-the-price">BenQ X3100i Gaming Projector Review: Worth the Price</a></h3>
+  </article>
+
+  <article class="card REVIEW p3">
+    <a href="/helldivers-ii/202993/review/helldivers-2-review-explosive-entertainment" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/screenshot/default/mg_xfnw.320.png" alt="Helldivers 2 Review" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/mg_xfnw.320.png, https://sm.ign.com/t/ign_in/screenshot/default/mg_xfnw.640.png 2x"></a>
+	<h3 class="caption"><a href="/helldivers-ii/202993/review/helldivers-2-review-explosive-entertainment">Helldivers 2 Review</a></h3>
+  </article>
+
+  <article class="card REVIEW p4">
+    <a href="/asus-rog-g22ch-2024-gaming-desktop/203132/review/asus-rog-g22ch-2024-gaming-desktop-review" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/screenshot/default/asus-rog-g22ch-2024-gaming-desktop-review-feature_euf3.320.jpg" alt="Asus ROG G22CH 2024 Gaming Desktop Review" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/asus-rog-g22ch-2024-gaming-desktop-review-feature_euf3.320.jpg, https://sm.ign.com/t/ign_in/screenshot/default/asus-rog-g22ch-2024-gaming-desktop-review-feature_euf3.640.jpg 2x"></a>
+	<h3 class="caption"><a href="/asus-rog-g22ch-2024-gaming-desktop/203132/review/asus-rog-g22ch-2024-gaming-desktop-review">Asus ROG G22CH 2024 Gaming Desktop Review</a></h3>
+  </article>
+
+</div></section>
+
+
+
+<section class="broll wrap hpcommerce">
+  
+  <div class="tbl">
+  
+  <article class="article  divider" id="content12330" data-embed-url="">
+	<div class="t">
+	<a href="/tech/187117/promoted/13th-gen-intelr-coretm-mobile-processors-delivering-the-ultimate-performance-to-gamers" class="thumb score-wrapper">
+	  <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/intel-sponsore-article-feature-copy_1wdp.280.jpg" alt="13th-Gen Intel® Core™ Mobile Processors: Delivering the Ultimate Performance to Gamers" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/intel-sponsore-article-feature-copy_1wdp.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/intel-sponsore-article-feature-copy_1wdp.600.jpg 2x">
+	</a>
+	</div>
+	<div class="m">
+	  <div class="info"><a href="/tech/187117/promoted/13th-gen-intelr-coretm-mobile-processors-delivering-the-ultimate-performance-to-gamers" class="comments">IGN Deals</a></div>
+	  <h3><a href="/tech/187117/promoted/13th-gen-intelr-coretm-mobile-processors-delivering-the-ultimate-performance-to-gamers">13th-Gen Intel® Core™ Mobile Processors: Delivering the Ultimate Performance to Gamers&nbsp;<svg class="ign-icon icon-top-right-arrow" focusable="false" viewBox="0 0 32 32" aria-hidden="true" role="presentation" stroke-width="5"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m19.961 5.397 10.04 10.039-10.04 10.038M2.394 15.436h26.351" transform="rotate(-45, 16, 16)"></path></svg></a></h3>
+	  
+	</div>
+  </article>
+
+  
+  <article class="article  " id="content11348" data-embed-url="">
+	<div class="t">
+	<a href="/india/177692/promoted/glaceau-smartwater-is-the-ultimate-choice-for-the-ultimate-gamer" class="thumb score-wrapper">
+	  <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/water-awqp1248_3ub5.280.jpg" alt="Glaceau smartwater is the Ultimate Choice for the Ultimate Gamer" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/water-awqp1248_3ub5.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/water-awqp1248_3ub5.600.jpg 2x">
+	</a>
+	</div>
+	<div class="m">
+	  <div class="info"><a href="/india/177692/promoted/glaceau-smartwater-is-the-ultimate-choice-for-the-ultimate-gamer" class="comments">IGN Deals</a></div>
+	  <h3><a href="/india/177692/promoted/glaceau-smartwater-is-the-ultimate-choice-for-the-ultimate-gamer">Glaceau smartwater is the Ultimate Choice for the Ultimate Gamer&nbsp;<svg class="ign-icon icon-top-right-arrow" focusable="false" viewBox="0 0 32 32" aria-hidden="true" role="presentation" stroke-width="5"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m19.961 5.397 10.04 10.039-10.04 10.038M2.394 15.436h26.351" transform="rotate(-45, 16, 16)"></path></svg></a></h3>
+	  
+	</div>
+  </article>
+
+  
+  </div>
+  
+</section>
+
+
+
+
+
+  
+
+
+<section class="broll wrap" data-pagenum="1" data-total="2">
+  <div class="side-ad-trail">
+    <div class="ad-wrapper pgQSsticky"><div class="zad halfpage" data-zadtype="halfpage" data-suffix="mrec1"></div></div>
+  </div>
+  <h2>Latest</h2>
+  <div class="tbl">
+  
+  <article class="article NEWS" id="content204111" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/dream-11-fantasy-gaming/204111/news/pbks-vs-dc-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-ipl-2024-match-2-on-marc" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/punjab-kings-vs-delhi-capitals_j4n3.280.jpg" alt="PBKS vs DC: Check our Fantasy Cricket Prediction, Tips, Playing Team Picks for IPL 2024, Match 2 on March 23rd (News Dream 11 Fantasy Gaming)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/punjab-kings-vs-delhi-capitals_j4n3.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/punjab-kings-vs-delhi-capitals_j4n3.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T17:27:53+05:30">5 minutes</time>
+      <a href="https://in.ign.com/dream-11-fantasy-gaming/204111/news/pbks-vs-dc-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-ipl-2024-match-2-on-marc#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204111">Comment</a></div>
+      <h3><a href="https://in.ign.com/dream-11-fantasy-gaming/204111/news/pbks-vs-dc-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-ipl-2024-match-2-on-marc">PBKS vs DC: Check our Fantasy Cricket Prediction, Tips, Playing Team Picks for IPL 2024, Match 2 on March 23rd</a></h3>
+      <p>Jake Fraser McGurk is in the line for his IPL debut.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204110" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/dragons-dogma-ii/204110/news/dragons-dogma-2-breaks-capcom-steam-records-amid-microtransactions-furore" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/d/dragons-do/dragons-dogma-2-breaks-capcom-steam-records-amid-microtransa_wyzt.280.jpg" alt="Dragon’s Dogma 2 Breaks Capcom Steam Records Amid Microtransactions Furore (News Dragon&#x27;s Dogma II)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/d/dragons-do/dragons-dogma-2-breaks-capcom-steam-records-amid-microtransa_wyzt.280.jpg, https://sm.ign.com/t/ign_in/news/d/dragons-do/dragons-dogma-2-breaks-capcom-steam-records-amid-microtransa_wyzt.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T17:04:57+05:30">28 minutes</time>
+      <a href="https://in.ign.com/dragons-dogma-ii/204110/news/dragons-dogma-2-breaks-capcom-steam-records-amid-microtransactions-furore#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204110">Comment</a></div>
+      <h3><a href="https://in.ign.com/dragons-dogma-ii/204110/news/dragons-dogma-2-breaks-capcom-steam-records-amid-microtransactions-furore">Dragon’s Dogma 2 Breaks Capcom Steam Records Amid Microtransactions Furore</a></h3>
+      <p>A thoughtful gift.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204094" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/grand-theft-auto-vi/204094/news/gta-6-rockstar-is-seemingly-confident-about-the-game-running-at-60-fps-on-the-ps5" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/mg-3_bzjs.280.png" alt="GTA 6: Rockstar is Seemingly &#x27;Confident&#x27; About the Game Running at 60 FPS on the PS5 (News Grand Theft Auto VI)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/mg-3_bzjs.280.png, https://sm.ign.com/t/ign_in/screenshot/default/mg-3_bzjs.600.png 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T16:45:44+05:30">48 minutes</time>
+      <a href="https://in.ign.com/grand-theft-auto-vi/204094/news/gta-6-rockstar-is-seemingly-confident-about-the-game-running-at-60-fps-on-the-ps5#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204094">Comment</a></div>
+      <h3><a href="https://in.ign.com/grand-theft-auto-vi/204094/news/gta-6-rockstar-is-seemingly-confident-about-the-game-running-at-60-fps-on-the-ps5">GTA 6: Rockstar is Seemingly &#x27;Confident&#x27; About the Game Running at 60 FPS on the PS5</a></h3>
+      <p>60 FPS should be a given for any new release.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204096" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/call-of-duty-warzone-mobile/204096/news/call-of-duty-warzone-mobile-can-be-played-with-a-controller" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/wzm-00-dayzero-tout_b77d.280.jpg" alt="Call of Duty: Warzone Mobile Can Be Played with a Controller (News Call of Duty: Warzone Mobile)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/wzm-00-dayzero-tout_b77d.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/wzm-00-dayzero-tout_b77d.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T16:42:58+05:30">50 minutes</time>
+      <a href="https://in.ign.com/call-of-duty-warzone-mobile/204096/news/call-of-duty-warzone-mobile-can-be-played-with-a-controller#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204096">Comment</a></div>
+      <h3><a href="https://in.ign.com/call-of-duty-warzone-mobile/204096/news/call-of-duty-warzone-mobile-can-be-played-with-a-controller">Call of Duty: Warzone Mobile Can Be Played with a Controller</a></h3>
+      <p>All recent Android and iOS devices support wireless controllers.</p>
+    </div>
+  </article>
+  
+  <article class="article FEATURE" id="content204108" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/dragons-dogma-ii/204108/feature/psa-saving-in-dragons-dogma-2-doesnt-work-like-you-expect-heres-what-you-need-to-know" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/feature/p/psa-saving/psa-saving-in-dragons-dogma-2-doesnt-work-like-you-expect-he_m5k1.280.jpg" alt="PSA: Saving in Dragon’s Dogma 2 Doesn’t Work Like You Expect - Here’s What You Need to Know (Feature Dragon&#x27;s Dogma II)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/feature/p/psa-saving/psa-saving-in-dragons-dogma-2-doesnt-work-like-you-expect-he_m5k1.280.jpg, https://sm.ign.com/t/ign_in/feature/p/psa-saving/psa-saving-in-dragons-dogma-2-doesnt-work-like-you-expect-he_m5k1.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T16:27:37+05:30">1 hour, 6 minutes</time>
+      <a href="https://in.ign.com/dragons-dogma-ii/204108/feature/psa-saving-in-dragons-dogma-2-doesnt-work-like-you-expect-heres-what-you-need-to-know#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204108">Comment</a></div>
+      <h3><a href="https://in.ign.com/dragons-dogma-ii/204108/feature/psa-saving-in-dragons-dogma-2-doesnt-work-like-you-expect-heres-what-you-need-to-know">PSA: Saving in Dragon’s Dogma 2 Doesn’t Work Like You Expect - Here’s What You Need to Know</a></h3>
+      <p>Don't trip up on this RPG's strange save system.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204100" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/helldivers-ii/204100/news/helldivers-2-players-believe-that-the-third-faction-has-made-its-way-to-the-game-already" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/a/as-if-hell/as-if-helldivers-2s-monsters-werent-terrifying-enough-it-tur_6kd8.280.jpg" alt="Helldivers 2 Players Believe That the Third Faction Has Made Its Way to the Game Already (News Helldivers II)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/a/as-if-hell/as-if-helldivers-2s-monsters-werent-terrifying-enough-it-tur_6kd8.280.jpg, https://sm.ign.com/t/ign_in/news/a/as-if-hell/as-if-helldivers-2s-monsters-werent-terrifying-enough-it-tur_6kd8.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T16:16:42+05:30">1 hour, 17 minutes</time>
+      <a href="https://in.ign.com/helldivers-ii/204100/news/helldivers-2-players-believe-that-the-third-faction-has-made-its-way-to-the-game-already#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204100">Comment</a></div>
+      <h3><a href="https://in.ign.com/helldivers-ii/204100/news/helldivers-2-players-believe-that-the-third-faction-has-made-its-way-to-the-game-already">Helldivers 2 Players Believe That the Third Faction Has Made Its Way to the Game Already</a></h3>
+      <p>The Illuminate have arrived?</p>
+    </div>
+  </article>
+  
+  </div>
+</section>
+
+
+
+
+<section class="hspotlight"><div class="wrap">
+<h2>IGN Deals</h2>
+
+  <article class="card NEWS p1">
+    <a href="/steam/203419/news/steam-spring-sale-2024-announced-14-with-a-new-trailer-womens-day-sale-2024-is-live-now" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/screenshot/default/mg-1_8wcv.320.png" alt="Steam: Spring Sale 2024 Announced for March 14 With a New Trailer; Women’s Day Sale 2024 Is Live Now" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/mg-1_8wcv.320.png, https://sm.ign.com/t/ign_in/screenshot/default/mg-1_8wcv.640.png 2x"></a>
+	<h3 class="caption"><a href="/steam/203419/news/steam-spring-sale-2024-announced-14-with-a-new-trailer-womens-day-sale-2024-is-live-now">Steam: Spring Sale 2024 Announced for March 14 With a New Trailer; Women’s Day Sale 2024 Is Live Now</a></h3>
+  </article>
+
+  <article class="card NEWS p2">
+    <a href="/playstation-plus/202902/news/playstation-plus-march-2024-one-of-the-essential-games-has-already-leaked" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/screenshot/default/xbox-ps_j7by.320.jpg" alt="PlayStation Plus March 2024: One of the Essential Games Has Already Leaked" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/xbox-ps_j7by.320.jpg, https://sm.ign.com/t/ign_in/screenshot/default/xbox-ps_j7by.640.jpg 2x"></a>
+	<h3 class="caption"><a href="/playstation-plus/202902/news/playstation-plus-march-2024-one-of-the-essential-games-has-already-leaked">PlayStation Plus March 2024: One of the Essential Games Has Already Leaked</a></h3>
+  </article>
+
+  <article class="card NEWS p3">
+    <a href="/astro-duel-2/203405/news/astro-duel-2-is-now-free-on-epic-games-store" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/news/e/epic-games/epic-games-store-gave-away-2000-worth-of-games-in-2023_srr7.320.jpg" alt="Astro Duel 2 Is Now Free on Epic Games Store" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/e/epic-games/epic-games-store-gave-away-2000-worth-of-games-in-2023_srr7.320.jpg, https://sm.ign.com/t/ign_in/news/e/epic-games/epic-games-store-gave-away-2000-worth-of-games-in-2023_srr7.640.jpg 2x"></a>
+	<h3 class="caption"><a href="/astro-duel-2/203405/news/astro-duel-2-is-now-free-on-epic-games-store">Astro Duel 2 Is Now Free on Epic Games Store</a></h3>
+  </article>
+
+  <article class="card NEWS p4">
+    <a href="/news/203450/ign-x-humble-partner-on-humble-heroines-bundle-for-womens-history-month" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/news/i/ign-x-humb/ign-x-humble-partner-on-humble-heroines-bundle-for-womens-hi_5sf7.320.jpg" alt="IGN x Humble Partner on Humble Heroines Bundle for Women&#x27;s History Month" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/i/ign-x-humb/ign-x-humble-partner-on-humble-heroines-bundle-for-womens-hi_5sf7.320.jpg, https://sm.ign.com/t/ign_in/news/i/ign-x-humb/ign-x-humble-partner-on-humble-heroines-bundle-for-womens-hi_5sf7.640.jpg 2x"></a>
+	<h3 class="caption"><a href="/news/203450/ign-x-humble-partner-on-humble-heroines-bundle-for-womens-history-month">IGN x Humble Partner on Humble Heroines Bundle for Women&#x27;s History Month</a></h3>
+  </article>
+
+</div></section>
+
+
+
+
+  
+
+
+<section class="broll wrap" data-pagenum="1" data-total="2">
+  <div class="side-ad-trail">
+    <div class="ad-wrapper pgQSsticky"><div class="zad halfpage" data-zadtype="halfpage" data-suffix="mrec2"></div></div>
+  </div>
+  
+  <div class="tbl">
+  
+  <article class="article NEWS" id="content204102" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/dream-11-fantasy-gaming/204102/news/mis-vs-pps-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-tobago-t10-blast-2024-ma" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/mt-irvine-surfers-vs-pigeon-point-skiers_uhke.280.jpg" alt="MIS vs PPS: Check our Fantasy Cricket Prediction, Tips, Playing Team Picks for Tobago T10 Blast 2024, Match 4 on March 23rd (News Dream 11 Fantasy Gaming)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/mt-irvine-surfers-vs-pigeon-point-skiers_uhke.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/mt-irvine-surfers-vs-pigeon-point-skiers_uhke.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T15:48:57+05:30">1 hour, 44 minutes</time>
+      <a href="https://in.ign.com/dream-11-fantasy-gaming/204102/news/mis-vs-pps-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-tobago-t10-blast-2024-ma#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204102">Comment</a></div>
+      <h3><a href="https://in.ign.com/dream-11-fantasy-gaming/204102/news/mis-vs-pps-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-tobago-t10-blast-2024-ma">MIS vs PPS: Check our Fantasy Cricket Prediction, Tips, Playing Team Picks for Tobago T10 Blast 2024, Match 4 on March 23rd</a></h3>
+      <p>Pigeon Point Skiers have lost their previous 10 matches.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204103" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/princess-peach-switch/204103/news/princess-peach-showtimes-director-developer-have-finally-been-revealed" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/p/princess-p/princess-peach-showtimes-director-developer-have-finally-bee_r23b.280.jpg" alt="Princess Peach: Showtime&#x27;s Director, Developer Have Finally Been Revealed (News Princess Peach [Switch])" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/p/princess-p/princess-peach-showtimes-director-developer-have-finally-bee_r23b.280.jpg, https://sm.ign.com/t/ign_in/news/p/princess-p/princess-peach-showtimes-director-developer-have-finally-bee_r23b.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T15:28:26+05:30">2 hours, 5 minutes</time>
+      <a href="https://in.ign.com/princess-peach-switch/204103/news/princess-peach-showtimes-director-developer-have-finally-been-revealed#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204103">Comment</a></div>
+      <h3><a href="https://in.ign.com/princess-peach-switch/204103/news/princess-peach-showtimes-director-developer-have-finally-been-revealed">Princess Peach: Showtime&#x27;s Director, Developer Have Finally Been Revealed</a></h3>
+      <p>Nintendo's secrecy about its developers continues to boggle the mind.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204101" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/marvels-spider-man-2/204101/news/spider-man-2s-popular-fast-travel-system-was-almost-cut-because-it-totally-broke-our-game" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/s/spider-man/spider-man-2s-popular-fast-travel-system-was-almost-cut-beca_xwvh.280.jpg" alt="Spider-Man 2&#x27;s Popular Fast Travel System Was Almost Cut Because It &#x27;Totally Broke Our Game&#x27; (News Marvel&#x27;s Spider-Man 2)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/s/spider-man/spider-man-2s-popular-fast-travel-system-was-almost-cut-beca_xwvh.280.jpg, https://sm.ign.com/t/ign_in/news/s/spider-man/spider-man-2s-popular-fast-travel-system-was-almost-cut-beca_xwvh.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T15:25:05+05:30">2 hours, 8 minutes</time>
+      <a href="https://in.ign.com/marvels-spider-man-2/204101/news/spider-man-2s-popular-fast-travel-system-was-almost-cut-because-it-totally-broke-our-game#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204101">Comment</a></div>
+      <h3><a href="https://in.ign.com/marvels-spider-man-2/204101/news/spider-man-2s-popular-fast-travel-system-was-almost-cut-because-it-totally-broke-our-game">Spider-Man 2&#x27;s Popular Fast Travel System Was Almost Cut Because It &#x27;Totally Broke Our Game&#x27;</a></h3>
+      <p>Insomniac breaks down Spider-Man 2's fast travel challenges and how it solved them.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204099" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/dragon-ball-2/204099/news/worlds-only-dragon-ball-theme-park-is-being-made-in-saudi-arabia" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/dragon-ball-theme-park_2zbc.280.jpg" alt="World’s Only Dragon Ball Theme Park Is Being Made in… Saudi Arabia (News Dragon Ball)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/dragon-ball-theme-park_2zbc.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/dragon-ball-theme-park_2zbc.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T15:12:11+05:30">2 hours, 21 minutes</time>
+      <a href="https://in.ign.com/dragon-ball-2/204099/news/worlds-only-dragon-ball-theme-park-is-being-made-in-saudi-arabia#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204099">Comment</a></div>
+      <h3><a href="https://in.ign.com/dragon-ball-2/204099/news/worlds-only-dragon-ball-theme-park-is-being-made-in-saudi-arabia">World’s Only Dragon Ball Theme Park Is Being Made in… Saudi Arabia</a></h3>
+      <p>You don't have to go to Japan to experience Dragon Ball in real life.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204097" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/dream-11-fantasy-gaming/204097/news/sbs-vs-pbr-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-tobago-t10-blast-2024-ma" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/store-bay-snorkelers-vs-pirates-bay-raiders_ne21.280.jpg" alt="SBS vs PBR: Check our Fantasy Cricket Prediction, Tips, Playing Team Picks for Tobago T10 Blast 2024, Match 3 on March 22nd (News Dream 11 Fantasy Gaming)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/store-bay-snorkelers-vs-pirates-bay-raiders_ne21.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/store-bay-snorkelers-vs-pirates-bay-raiders_ne21.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T13:48:16+05:30">3 hours, 45 minutes</time>
+      <a href="https://in.ign.com/dream-11-fantasy-gaming/204097/news/sbs-vs-pbr-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-tobago-t10-blast-2024-ma#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204097">Comment</a></div>
+      <h3><a href="https://in.ign.com/dream-11-fantasy-gaming/204097/news/sbs-vs-pbr-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-tobago-t10-blast-2024-ma">SBS vs PBR: Check our Fantasy Cricket Prediction, Tips, Playing Team Picks for Tobago T10 Blast 2024, Match 3 on March 22nd</a></h3>
+      <p>Dillon Douglas is a show stealer and a must-pick for your fantasy teams.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204090" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/invincible-presents-atom-eve/204090/news/invincible-presents-atom-eve-and-call-of-the-wild-the-angler-are-currently-free-on-the-epic-games-st" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/story-28_frnv.280.jpg" alt="Invincible Presents: Atom Eve and Call of the Wild: The Angler Are Currently Free on the Epic Games Store (News Invincible Presents: Atom Eve)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/story-28_frnv.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/story-28_frnv.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T13:33:19+05:30">4 hours</time>
+      <a href="https://in.ign.com/invincible-presents-atom-eve/204090/news/invincible-presents-atom-eve-and-call-of-the-wild-the-angler-are-currently-free-on-the-epic-games-st#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204090">Comment</a></div>
+      <h3><a href="https://in.ign.com/invincible-presents-atom-eve/204090/news/invincible-presents-atom-eve-and-call-of-the-wild-the-angler-are-currently-free-on-the-epic-games-st">Invincible Presents: Atom Eve and Call of the Wild: The Angler Are Currently Free on the Epic Games Store</a></h3>
+      <p>Available until March 28.</p>
+    </div>
+  </article>
+  
+  </div>
+</section>
+
+
+
+
+<section class="hspotlight"><div class="wrap">
+<h2>Spotlight</h2>
+
+  <article class="card FEATURE p1">
+    <a href="/grand-theft-auto-v-2/197604/feature/gta-6-everything-we-know-news-leaks-and-pre-trailer-intel" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/feature/g/gta-6-ever/gta-6-everything-we-know-news-leaks-and-pre-trailer-intel_5nng.320.jpg" alt="GTA 6: Everything We Know - News, Leaks, and Pre-Trailer Intel" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/feature/g/gta-6-ever/gta-6-everything-we-know-news-leaks-and-pre-trailer-intel_5nng.320.jpg, https://sm.ign.com/t/ign_in/feature/g/gta-6-ever/gta-6-everything-we-know-news-leaks-and-pre-trailer-intel_5nng.640.jpg 2x"></a>
+	<h3 class="caption"><a href="/grand-theft-auto-v-2/197604/feature/gta-6-everything-we-know-news-leaks-and-pre-trailer-intel">GTA 6: Everything We Know - News, Leaks, and Pre-Trailer Intel</a></h3>
+  </article>
+
+  <article class="card FEATURE p2">
+    <a href="/movie/156589/feature/new-marvel-movies-and-tv-shows-in-2021-and-beyond" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/feature/u/upcoming-n/upcoming-new-marvel-movies-for-2024-release-dates-for-phase_nhvg.320.jpg" alt="Upcoming New Marvel Movies for 2024: Release Dates for Phase 5 and 6" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/feature/u/upcoming-n/upcoming-new-marvel-movies-for-2024-release-dates-for-phase_nhvg.320.jpg, https://sm.ign.com/t/ign_in/feature/u/upcoming-n/upcoming-new-marvel-movies-for-2024-release-dates-for-phase_nhvg.640.jpg 2x"></a>
+	<h3 class="caption"><a href="/movie/156589/feature/new-marvel-movies-and-tv-shows-in-2021-and-beyond">Upcoming New Marvel Movies for 2024: Release Dates for Phase 5 and 6</a></h3>
+  </article>
+
+  <article class="card LISTS p3">
+    <a href="/beastars/175845/feature/best-anime-series-on-netflix-right-now-november-2022" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/lists/b/best-anime/best-anime-series-on-netflix-right-now-february-2024_cp2d.320.jpg" alt="Best Anime Series on Netflix Right Now (February 2024)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/lists/b/best-anime/best-anime-series-on-netflix-right-now-february-2024_cp2d.320.jpg, https://sm.ign.com/t/ign_in/lists/b/best-anime/best-anime-series-on-netflix-right-now-february-2024_cp2d.640.jpg 2x"></a>
+	<h3 class="caption"><a href="/beastars/175845/feature/best-anime-series-on-netflix-right-now-november-2022">Best Anime Series on Netflix Right Now (February 2024)</a></h3>
+  </article>
+
+  <article class="card LISTS p4">
+    <a href="/marvels-spider-man-2/196192/lists/top-10-spider-man-games" class="thumb"><img data-src="https://sm.ign.com/t/ign_in/lists/t/top-10-spi/top-10-spider-man-games_xa5t.320.jpg" alt="Top 10 Spider-Man Games" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/lists/t/top-10-spi/top-10-spider-man-games_xa5t.320.jpg, https://sm.ign.com/t/ign_in/lists/t/top-10-spi/top-10-spider-man-games_xa5t.640.jpg 2x"></a>
+	<h3 class="caption"><a href="/marvels-spider-man-2/196192/lists/top-10-spider-man-games">Top 10 Spider-Man Games</a></h3>
+  </article>
+
+</div></section>
+
+
+
+
+  
+
+
+<section class="broll wrap" data-pagenum="1" data-total="2">
+  <div class="side-ad-trail">
+    <div class="ad-wrapper pgQSsticky"><div class="zad halfpage" data-zadtype="halfpage" data-suffix="mrec2"></div></div>
+  </div>
+  
+  <div class="tbl">
+  
+  <article class="article NEWS" id="content204033" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/tv/204033/news/amazon-prime-video-announces-69-movies-and-shows-coming-in-2024" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/story-27_82jg.280.jpg" alt="Amazon Prime Video Announces 69 Movies and Shows Coming in 2024 (News TV)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/story-27_82jg.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/story-27_82jg.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T13:32:28+05:30">4 hours, 1 minute</time>
+      <a href="https://in.ign.com/tv/204033/news/amazon-prime-video-announces-69-movies-and-shows-coming-in-2024#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204033">Comment</a></div>
+      <h3><a href="https://in.ign.com/tv/204033/news/amazon-prime-video-announces-69-movies-and-shows-coming-in-2024">Amazon Prime Video Announces 69 Movies and Shows Coming in 2024</a></h3>
+      <p>Nice.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204021" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/ign-army-vs-stars/204021/news/ign-army-godlike-esports-talks-about-the-codm-world-championship-work-to-improve-their-performance-a" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/feat-2_5be8.280.png" alt="IGN Army: GodLike Esports Talks About the CODM World Championship, Work To Improve Their Performance, and More (News IGN Army)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/feat-2_5be8.280.png, https://sm.ign.com/t/ign_in/screenshot/default/feat-2_5be8.600.png 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T13:31:17+05:30">4 hours, 2 minutes</time>
+      <a href="https://in.ign.com/ign-army-vs-stars/204021/news/ign-army-godlike-esports-talks-about-the-codm-world-championship-work-to-improve-their-performance-a#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204021">Comment</a></div>
+      <h3><a href="https://in.ign.com/ign-army-vs-stars/204021/news/ign-army-godlike-esports-talks-about-the-codm-world-championship-work-to-improve-their-performance-a">IGN Army: GodLike Esports Talks About the CODM World Championship, Work To Improve Their Performance, and More</a></h3>
+      <p>Here's how GodLike Esports improved their day-to-day functioning to get better.</p>
+    </div>
+  </article>
+  
+  <article class="gallery STORY" id="content204093" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/dream-11-fantasy-gaming/204093/story/chennai-super-kings-vs-royal-challengers-bengaluru-indian-premier-league-2024-match-1-top-5-fantasy" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/chennai-super-kings-vs-royal-challengers-bengaluru-1_4qqh.280.jpg" alt="Chennai Super Kings vs Royal Challengers Bengaluru – Indian Premier League 2024, Match 1, Top 5 Fantasy Picks – Including Ruturaj Gaikwad, Faf du Plessis (Story Dream 11 Fantasy Gaming)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/chennai-super-kings-vs-royal-challengers-bengaluru-1_4qqh.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/chennai-super-kings-vs-royal-challengers-bengaluru-1_4qqh.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T12:17:54+05:30">5 hours, 15 minutes</time>
+      <a href="https://in.ign.com/dream-11-fantasy-gaming/204093/story/chennai-super-kings-vs-royal-challengers-bengaluru-indian-premier-league-2024-match-1-top-5-fantasy#disqus_thread" class="comments commentscount" data-disqus-identifier="gallery_204093">Comment</a></div>
+      <h3><a href="https://in.ign.com/dream-11-fantasy-gaming/204093/story/chennai-super-kings-vs-royal-challengers-bengaluru-indian-premier-league-2024-match-1-top-5-fantasy">Chennai Super Kings vs Royal Challengers Bengaluru – Indian Premier League 2024, Match 1, Top 5 Fantasy Picks – Including Ruturaj Gaikwad, Faf du Plessis</a></h3>
+      <p>Players to keep an eye on.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204087" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/astra-knights-of-veda/204087/news/astra-knights-of-veda-collaborates-with-k-pop-artists-from-seventeen-fromis-9" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/astra-knights-of-veda_vkf6.280.jpg" alt="Astra: Knights of Veda Collaborates With K-pop Artists From Seventeen, Fromis 9 (News ASTRA: Knights of Veda)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/astra-knights-of-veda_vkf6.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/astra-knights-of-veda_vkf6.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T07:23:55+05:30">10 hours, 9 minutes</time>
+      <a href="https://in.ign.com/astra-knights-of-veda/204087/news/astra-knights-of-veda-collaborates-with-k-pop-artists-from-seventeen-fromis-9#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204087">Comment</a></div>
+      <h3><a href="https://in.ign.com/astra-knights-of-veda/204087/news/astra-knights-of-veda-collaborates-with-k-pop-artists-from-seventeen-fromis-9">Astra: Knights of Veda Collaborates With K-pop Artists From Seventeen, Fromis 9</a></h3>
+      <p>The upcoming Korean 2D action RPG is published by Hybe IM.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204088" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/shadows-of-the-damned-remastered/204088/news/resident-evil-director-hi-fi-rush-producer-shinji-mikami-has-seemingly-started-another-new-studio" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/r/resident-e/resident-evil-director-hi-fi-rush-producer-shinji-mikami-has_fygd.280.jpg" alt="Resident Evil Director, Hi-Fi Rush Producer Shinji Mikami has Seemingly Started Another New Studio (News Shadows of the Damned: Remastered)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/r/resident-e/resident-evil-director-hi-fi-rush-producer-shinji-mikami-has_fygd.280.jpg, https://sm.ign.com/t/ign_in/news/r/resident-e/resident-evil-director-hi-fi-rush-producer-shinji-mikami-has_fygd.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T06:53:07+05:30">10 hours, 40 minutes</time>
+      <a href="https://in.ign.com/shadows-of-the-damned-remastered/204088/news/resident-evil-director-hi-fi-rush-producer-shinji-mikami-has-seemingly-started-another-new-studio#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204088">Comment</a></div>
+      <h3><a href="https://in.ign.com/shadows-of-the-damned-remastered/204088/news/resident-evil-director-hi-fi-rush-producer-shinji-mikami-has-seemingly-started-another-new-studio">Resident Evil Director, Hi-Fi Rush Producer Shinji Mikami has Seemingly Started Another New Studio</a></h3>
+      <p>Mikami left Tango Gameworks last year.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204083" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/solo-leveling-arise/204083/news/solo-leveling-arise-opens-pre-registrations" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/sololeveling6816_8wmw.280.jpg" alt="Solo Leveling: Arise Opens Pre-Registrations (News Solo Leveling: Arise)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/sololeveling6816_8wmw.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/sololeveling6816_8wmw.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T06:40:48+05:30">10 hours, 53 minutes</time>
+      <a href="https://in.ign.com/solo-leveling-arise/204083/news/solo-leveling-arise-opens-pre-registrations#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204083">Comment</a></div>
+      <h3><a href="https://in.ign.com/solo-leveling-arise/204083/news/solo-leveling-arise-opens-pre-registrations">Solo Leveling: Arise Opens Pre-Registrations</a></h3>
+      <p>The action RPG based on the webtoon of the same name is open for pre-registrations globally.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204082" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/comic-con-india/204082/news/bandai-namco-booth-returning-to-mumbai-comic-con-2024" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/screenshot/default/b03fd933-5259-4d05-a379-f2c4102f1c08_4t93.280.jpg" alt="Bandai Namco Booth Returning to Mumbai Comic Con 2024 (News Comic Con India)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/screenshot/default/b03fd933-5259-4d05-a379-f2c4102f1c08_4t93.280.jpg, https://sm.ign.com/t/ign_in/screenshot/default/b03fd933-5259-4d05-a379-f2c4102f1c08_4t93.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T05:58:51+05:30">11 hours, 34 minutes</time>
+      <a href="https://in.ign.com/comic-con-india/204082/news/bandai-namco-booth-returning-to-mumbai-comic-con-2024#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204082">Comment</a></div>
+      <h3><a href="https://in.ign.com/comic-con-india/204082/news/bandai-namco-booth-returning-to-mumbai-comic-con-2024">Bandai Namco Booth Returning to Mumbai Comic Con 2024</a></h3>
+      <p>The pop-up store was at last year’s con too.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204081" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/one-piece/204081/news/one-piece-creator-taking-a-three-week-break-for-his-health-but-reassures-fans-that-hes-not-unwell" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/o/one-piece-/one-piece-creator-taking-three-week-break-for-scheduled-main_k9qz.280.jpg" alt="One Piece Creator Taking Three-Week Break for &#x27;Scheduled Maintenance,&#x27; but Reassures Fans That He&#x27;s &#x27;Not Unwell&#x27; (News One Piece)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/o/one-piece-/one-piece-creator-taking-three-week-break-for-scheduled-main_k9qz.280.jpg, https://sm.ign.com/t/ign_in/news/o/one-piece-/one-piece-creator-taking-three-week-break-for-scheduled-main_k9qz.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T04:33:06+05:30">13 hours</time>
+      <a href="https://in.ign.com/one-piece/204081/news/one-piece-creator-taking-a-three-week-break-for-his-health-but-reassures-fans-that-hes-not-unwell#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204081">Comment</a></div>
+      <h3><a href="https://in.ign.com/one-piece/204081/news/one-piece-creator-taking-a-three-week-break-for-his-health-but-reassures-fans-that-hes-not-unwell">One Piece Creator Taking Three-Week Break for &#x27;Scheduled Maintenance,&#x27; but Reassures Fans That He&#x27;s &#x27;Not Unwell&#x27;</a></h3>
+      <p>Eiichiro Oda tells fans not to panic and to consider his break as "a type of scheduled maintenance."</p>
+    </div>
+  </article>
+  
+  <article class="article PREVIEW" id="content204079" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/path-of-exile-2/204079/preview/path-of-exile-2s-ranger-class-benefits-greatly-from-recent-control-changes" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/preview/p/path-of-ex/path-of-exile-2s-ranger-class-benefits-greatly-from-recent-c_jwge.280.jpg" alt="Path of Exile 2’s Ranger Class Benefits Greatly from Recent Control Changes (Preview Path of Exile 2)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/preview/p/path-of-ex/path-of-exile-2s-ranger-class-benefits-greatly-from-recent-c_jwge.280.jpg, https://sm.ign.com/t/ign_in/preview/p/path-of-ex/path-of-exile-2s-ranger-class-benefits-greatly-from-recent-c_jwge.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T03:40:48+05:30">13 hours, 53 minutes</time>
+      <a href="https://in.ign.com/path-of-exile-2/204079/preview/path-of-exile-2s-ranger-class-benefits-greatly-from-recent-control-changes#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204079">Comment</a></div>
+      <h3><a href="https://in.ign.com/path-of-exile-2/204079/preview/path-of-exile-2s-ranger-class-benefits-greatly-from-recent-control-changes">Path of Exile 2’s Ranger Class Benefits Greatly from Recent Control Changes</a></h3>
+      <p>Say hi to your old friends W, A, S, and D.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204078" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/baldurs-gate-3/204078/news/larian-started-work-on-baldurs-gate-3-dlc-then-canceled-it-the-studio-was-elated" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/l/larian-sta/larian-started-work-on-baldurs-gate-3-dlc-then-canceled-it-t_2um4.280.jpg" alt="Larian Started Work on Baldur&#x27;s Gate 3 DLC, Then Canceled It: &#x27;The Studio Was Elated&#x27; (News Baldur&#x27;s Gate 3)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/l/larian-sta/larian-started-work-on-baldurs-gate-3-dlc-then-canceled-it-t_2um4.280.jpg, https://sm.ign.com/t/ign_in/news/l/larian-sta/larian-started-work-on-baldurs-gate-3-dlc-then-canceled-it-t_2um4.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T03:16:11+05:30">14 hours, 17 minutes</time>
+      <a href="https://in.ign.com/baldurs-gate-3/204078/news/larian-started-work-on-baldurs-gate-3-dlc-then-canceled-it-the-studio-was-elated#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204078">Comment</a></div>
+      <h3><a href="https://in.ign.com/baldurs-gate-3/204078/news/larian-started-work-on-baldurs-gate-3-dlc-then-canceled-it-the-studio-was-elated">Larian Started Work on Baldur&#x27;s Gate 3 DLC, Then Canceled It: &#x27;The Studio Was Elated&#x27;</a></h3>
+      <p>"It wasn't really coming from the heart," says director Swen Vincke.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204076" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/beetlejuice-beetlejuice/204076/news/beetlejuice-sequel-finally-unveils-first-trailer-showing-off-michael-keatons-return" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/b/beetlejuic/beetlejuice-sequel-finally-unveils-first-trailer-showing-off_374t.280.jpg" alt="Beetlejuice Sequel Finally Unveils First Trailer, Showing Off Michael Keaton&#x27;s Return (News Beetlejuice Beetlejuice)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/b/beetlejuic/beetlejuice-sequel-finally-unveils-first-trailer-showing-off_374t.280.jpg, https://sm.ign.com/t/ign_in/news/b/beetlejuic/beetlejuice-sequel-finally-unveils-first-trailer-showing-off_374t.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T03:09:33+05:30">14 hours, 24 minutes</time>
+      <a href="https://in.ign.com/beetlejuice-beetlejuice/204076/news/beetlejuice-sequel-finally-unveils-first-trailer-showing-off-michael-keatons-return#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204076">Comment</a></div>
+      <h3><a href="https://in.ign.com/beetlejuice-beetlejuice/204076/news/beetlejuice-sequel-finally-unveils-first-trailer-showing-off-michael-keatons-return">Beetlejuice Sequel Finally Unveils First Trailer, Showing Off Michael Keaton&#x27;s Return</a></h3>
+      <p>"The juice is loose."</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204075" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/spider-man-across-the-spider-verse/204075/news/new-spider-verse-animated-short-arriving-on-youtube-next-week" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/n/new-spider/new-spider-verse-animated-short-arriving-on-youtube-next-wee_trrf.280.jpg" alt="New Spider-Verse Animated Short Arriving on YouTube Next Week (News Spider-Man: Across the Spider-Verse)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/n/new-spider/new-spider-verse-animated-short-arriving-on-youtube-next-wee_trrf.280.jpg, https://sm.ign.com/t/ign_in/news/n/new-spider/new-spider-verse-animated-short-arriving-on-youtube-next-wee_trrf.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T02:40:21+05:30">14 hours, 53 minutes</time>
+      <a href="https://in.ign.com/spider-man-across-the-spider-verse/204075/news/new-spider-verse-animated-short-arriving-on-youtube-next-week#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204075">Comment</a></div>
+      <h3><a href="https://in.ign.com/spider-man-across-the-spider-verse/204075/news/new-spider-verse-animated-short-arriving-on-youtube-next-week">New Spider-Verse Animated Short Arriving on YouTube Next Week</a></h3>
+      <p>The Spider Within sees Miles Morales confront his anxiety.</p>
+    </div>
+  </article>
+  
+  <article class="article FEATURE" id="content204073" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/ghostbusters-afterlife-2/204073/feature/ghostbusters-frozen-empire-post-credits-scene-check-in-no-spoilers" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/feature/g/ghostbuste/ghostbusters-frozen-empire-post-credits-scene-check-in-no-sp_d3b5.280.jpg" alt="Ghostbusters: Frozen Empire Post-Credits Scene Check-In (No Spoilers) (Feature Ghostbusters: Afterlife 2)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/feature/g/ghostbuste/ghostbusters-frozen-empire-post-credits-scene-check-in-no-sp_d3b5.280.jpg, https://sm.ign.com/t/ign_in/feature/g/ghostbuste/ghostbusters-frozen-empire-post-credits-scene-check-in-no-sp_d3b5.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T02:30:00+05:30">15 hours, 3 minutes</time>
+      <a href="https://in.ign.com/ghostbusters-afterlife-2/204073/feature/ghostbusters-frozen-empire-post-credits-scene-check-in-no-spoilers#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204073">Comment</a></div>
+      <h3><a href="https://in.ign.com/ghostbusters-afterlife-2/204073/feature/ghostbusters-frozen-empire-post-credits-scene-check-in-no-spoilers">Ghostbusters: Frozen Empire Post-Credits Scene Check-In (No Spoilers)</a></h3>
+      <p>Should you stick around after the credits of the latest Ghostbusters movie?</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204070" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/rise-of-the-ronin/204070/news/rise-of-the-ronin-game-director-teases-hard-mode-difficulty-challenging-post-game-content" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/r/rise-of-th/rise-of-the-ronin-game-director-teases-hard-mode-difficulty_xhj4.280.jpg" alt="Rise of the Ronin Game Director Teases Hard Mode Difficulty, &#x27;Challenging&#x27; Post-Game Content (News Rise of the Ronin)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/r/rise-of-th/rise-of-the-ronin-game-director-teases-hard-mode-difficulty_xhj4.280.jpg, https://sm.ign.com/t/ign_in/news/r/rise-of-th/rise-of-the-ronin-game-director-teases-hard-mode-difficulty_xhj4.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T02:29:12+05:30">15 hours, 4 minutes</time>
+      <a href="https://in.ign.com/rise-of-the-ronin/204070/news/rise-of-the-ronin-game-director-teases-hard-mode-difficulty-challenging-post-game-content#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204070">Comment</a></div>
+      <h3><a href="https://in.ign.com/rise-of-the-ronin/204070/news/rise-of-the-ronin-game-director-teases-hard-mode-difficulty-challenging-post-game-content">Rise of the Ronin Game Director Teases Hard Mode Difficulty, &#x27;Challenging&#x27; Post-Game Content</a></h3>
+      <p>Team Ninja promises tough gameplay for newcomers and veterans alike.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204069" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/star-wars-episode-iv-a-new-hope/204069/news/star-wars-blue-milk-can-soon-finally-be-consumed-at-home-if-youre-into-that" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/s/star-wars-/star-wars-blue-milk-can-soon-finally-be-consumed-at-home-if_2mnm.280.jpg" alt="Star Wars Blue Milk Can Soon Finally Be Consumed at Home, If You&#x27;re Into That (News Star Wars Episode IV: A New Hope)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/s/star-wars-/star-wars-blue-milk-can-soon-finally-be-consumed-at-home-if_2mnm.280.jpg, https://sm.ign.com/t/ign_in/news/s/star-wars-/star-wars-blue-milk-can-soon-finally-be-consumed-at-home-if_2mnm.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T02:19:10+05:30">15 hours, 14 minutes</time>
+      <a href="https://in.ign.com/star-wars-episode-iv-a-new-hope/204069/news/star-wars-blue-milk-can-soon-finally-be-consumed-at-home-if-youre-into-that#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204069">Comment</a></div>
+      <h3><a href="https://in.ign.com/star-wars-episode-iv-a-new-hope/204069/news/star-wars-blue-milk-can-soon-finally-be-consumed-at-home-if-youre-into-that">Star Wars Blue Milk Can Soon Finally Be Consumed at Home, If You&#x27;re Into That</a></h3>
+      <p>No trip to the Outer Rim required.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204068" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/stardew-valley/204068/news/new-stardew-valley-16-easter-egg-lets-players-wield-one-of-terrarias-most-powerful-weapons" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/n/new-starde/new-stardew-valley-16-easter-egg-lets-players-wield-one-of-t_ukj9.280.jpg" alt="New Stardew Valley 1.6 Easter Egg Lets Players Wield One of Terraria&#x27;s Most Powerful Weapons (News Stardew Valley)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/n/new-starde/new-stardew-valley-16-easter-egg-lets-players-wield-one-of-t_ukj9.280.jpg, https://sm.ign.com/t/ign_in/news/n/new-starde/new-stardew-valley-16-easter-egg-lets-players-wield-one-of-t_ukj9.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T01:54:48+05:30">15 hours, 39 minutes</time>
+      <a href="https://in.ign.com/stardew-valley/204068/news/new-stardew-valley-16-easter-egg-lets-players-wield-one-of-terrarias-most-powerful-weapons#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204068">Comment</a></div>
+      <h3><a href="https://in.ign.com/stardew-valley/204068/news/new-stardew-valley-16-easter-egg-lets-players-wield-one-of-terrarias-most-powerful-weapons">New Stardew Valley 1.6 Easter Egg Lets Players Wield One of Terraria&#x27;s Most Powerful Weapons</a></h3>
+      <p>The 1.6 Update discovery continues.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204066" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/baldurs-gate-3/204066/news/larian-founder-on-working-with-google-stadia-for-baldurs-gate-3-it-was-a-really-stupid-deal" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/l/larian-fou/larian-founder-on-working-with-google-stadia-for-baldurs-gat_hhnm.280.jpg" alt="Larian Founder on Working With Google Stadia for Baldur&#x27;s Gate 3: &#x27;It Was a Really Stupid Deal&#x27; (News Baldur&#x27;s Gate 3)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/l/larian-fou/larian-founder-on-working-with-google-stadia-for-baldurs-gat_hhnm.280.jpg, https://sm.ign.com/t/ign_in/news/l/larian-fou/larian-founder-on-working-with-google-stadia-for-baldurs-gat_hhnm.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T01:09:51+05:30">16 hours, 23 minutes</time>
+      <a href="https://in.ign.com/baldurs-gate-3/204066/news/larian-founder-on-working-with-google-stadia-for-baldurs-gate-3-it-was-a-really-stupid-deal#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204066">Comment</a></div>
+      <h3><a href="https://in.ign.com/baldurs-gate-3/204066/news/larian-founder-on-working-with-google-stadia-for-baldurs-gate-3-it-was-a-really-stupid-deal">Larian Founder on Working With Google Stadia for Baldur&#x27;s Gate 3: &#x27;It Was a Really Stupid Deal&#x27;</a></h3>
+      <p>Swen has some regrets.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204065" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/the-elder-scrolls-arena/204065/news/the-elder-scrolls-creators-reveal-how-accidental-plagiarism-was-part-of-its-origin-story" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/t/the-elder-/the-elder-scrolls-creators-reveal-how-accidental-plagiarism_ns3w.280.jpg" alt="The Elder Scrolls’ Creators Reveal How Accidental Plagiarism Was Part of Its Origin Story (News the-elder-scrolls-arena)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/t/the-elder-/the-elder-scrolls-creators-reveal-how-accidental-plagiarism_ns3w.280.jpg, https://sm.ign.com/t/ign_in/news/t/the-elder-/the-elder-scrolls-creators-reveal-how-accidental-plagiarism_ns3w.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T00:59:45+05:30">16 hours, 34 minutes</time>
+      <a href="https://in.ign.com/the-elder-scrolls-arena/204065/news/the-elder-scrolls-creators-reveal-how-accidental-plagiarism-was-part-of-its-origin-story#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204065">Comment</a></div>
+      <h3><a href="https://in.ign.com/the-elder-scrolls-arena/204065/news/the-elder-scrolls-creators-reveal-how-accidental-plagiarism-was-part-of-its-origin-story">The Elder Scrolls’ Creators Reveal How Accidental Plagiarism Was Part of Its Origin Story</a></h3>
+      <p>Ted Peterson and Julian LeFay share tales from the dawn of Bethesda.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204063" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/baldurs-gate-3/204063/news/baldurs-gate-3s-collective-dialogue-has-triple-the-word-count-of-the-lord-of-the-rings-larian-reveal" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/b/baldurs-ga/baldurs-gate-3s-collective-dialogue-has-triple-the-word-coun_kaua.280.jpg" alt="Baldur&#x27;s Gate 3&#x27;s Collective Dialogue Has Triple the Word Count of the Lord of the Rings, Larian Reveals (News Baldur&#x27;s Gate 3)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/b/baldurs-ga/baldurs-gate-3s-collective-dialogue-has-triple-the-word-coun_kaua.280.jpg, https://sm.ign.com/t/ign_in/news/b/baldurs-ga/baldurs-gate-3s-collective-dialogue-has-triple-the-word-coun_kaua.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T00:51:42+05:30">16 hours, 42 minutes</time>
+      <a href="https://in.ign.com/baldurs-gate-3/204063/news/baldurs-gate-3s-collective-dialogue-has-triple-the-word-count-of-the-lord-of-the-rings-larian-reveal#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204063">Comment</a></div>
+      <h3><a href="https://in.ign.com/baldurs-gate-3/204063/news/baldurs-gate-3s-collective-dialogue-has-triple-the-word-count-of-the-lord-of-the-rings-larian-reveal">Baldur&#x27;s Gate 3&#x27;s Collective Dialogue Has Triple the Word Count of the Lord of the Rings, Larian Reveals</a></h3>
+      <p>That's a lot of fantasy lore.</p>
+    </div>
+  </article>
+  
+  <article class="article NEWS" id="content204062" data-embed-url="">
+    <div class="t">
+    <a href="https://in.ign.com/how-do-you-live/204062/news/the-boy-and-the-heron-is-coming-to-netflix-but-likely-not-in-the-us" class="thumb score-wrapper">
+      <img data-src="https://sm.ign.com/t/ign_in/news/t/the-boy-an/the-boy-and-the-heron-is-coming-to-netflix-but-likely-not-in_fdpd.280.jpg" alt="The Boy and the Heron Is Coming to Netflix, but Likely Not in the U.S. (News The Boy and the Heron)" class="thumb" data-srcset="https://sm.ign.com/t/ign_in/news/t/the-boy-an/the-boy-and-the-heron-is-coming-to-netflix-but-likely-not-in_fdpd.280.jpg, https://sm.ign.com/t/ign_in/news/t/the-boy-an/the-boy-and-the-heron-is-coming-to-netflix-but-likely-not-in_fdpd.600.jpg 2x">
+      
+      
+      
+    </a>
+    </div>
+    <div class="m">
+      <div class="info"><time datetime="2024-03-22T00:41:03+05:30">16 hours, 52 minutes</time>
+      <a href="https://in.ign.com/how-do-you-live/204062/news/the-boy-and-the-heron-is-coming-to-netflix-but-likely-not-in-the-us#disqus_thread" class="comments commentscount" data-disqus-identifier="article_204062">Comment</a></div>
+      <h3><a href="https://in.ign.com/how-do-you-live/204062/news/the-boy-and-the-heron-is-coming-to-netflix-but-likely-not-in-the-us">The Boy and the Heron Is Coming to Netflix, but Likely Not in the U.S.</a></h3>
+      <p>Hayao Miyazaki's award-winning film's streaming rights has Max and Netflix user's eyes crossed.</p>
+    </div>
+  </article>
+  
+  </div>
+</section>
+
+
+
+</div>
+<div id="infinitescrollanchor" data-infinite-scroll-limit=30 data-infinite="broll"></div>
+
+
+  
+  
+
+  <div class="zad footer" data-zadtype="footer" data-suffix="footer"></div>
+  <div id="adsense" style="visibility: hidden">Ad</div>
+
+  <footer id="footer" class="limitedScroll">
+    <div id="footerMain" class="wrap">
+      <div class="legal">
+        <a href="https://world.ziffdavis.com"><svg id="zdlogoblue" data-name="Ziff Davis Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 298.63 174.94"><path d="M102,15.57H83.2V.09H102ZM83.2,26.16H102V94.57H83.2Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M117,38.73H105.72V26.16H117v-5.3C117,8.69,124.51.09,139.86.09c3.31,0,6.75.4,9.92.53v14a58.78,58.78,0,0,0-6.88-.4c-5.16,0-7.14,2.12-7.14,7.81v4.1h13V38.73h-13V94.57H117Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M154.59,38.73H143.34V26.16h11.25v-5.3c0-12.17,7.54-20.77,22.89-20.77,3.31,0,6.75.4,9.92.53v14a58.78,58.78,0,0,0-6.88-.4c-5.16,0-7.14,2.12-7.14,7.81v4.1h13V38.73h-13V94.57H154.59Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M31.37,73.6l-2.95,3.5H50.91a31.52,31.52,0,0,1,13.77,3,29.66,29.66,0,0,1,6.68,4.44,30.31,30.31,0,0,1,7.46,10.07H.77V78.14L4.58,73.6l3-3.57L51.44,17.56H4.75V.09H79.1V16.48L34.35,70Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M80.57,103.2h-24c5.17,5.44,7.18,13.79,7.18,24.16,0,20.9-11.54,28.31-23.57,28.31H21.65V103.2H.86v69.94H41.62c28.83,0,42.87-20.38,42.87-47.76A58.44,58.44,0,0,0,80.57,103.2Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M148.78,157.93v-35.6c0-13.69-11.37-18.06-23-19.13a68.79,68.79,0,0,0-7-.31,8.43,8.43,0,0,0-.87,0c-15.08.17-30.26,5.69-31.3,22.84h18.79c.66-7.42,5.16-10.33,12.44-10.33,6.62,0,12.17,1.32,12.17,9.29.79,15.32-45.23-1.35-45.51,29.77,0,14,10.19,20.49,23.29,20.49,8.46,0,17-2.25,23-8.46a28.37,28.37,0,0,0,1.32,6.62h19.06C149.44,170.37,148.78,164.13,148.78,157.93ZM130,146.66c0,4.23-.52,15.77-15.22,15.77-6.06,0-11.51-1.87-11.51-8.73s5.31-9,11.13-10.09,12.44-1.18,15.6-4Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M195.32,104.72,180.9,151.44h-.27l-14.42-46.72H146.49l23.43,68.42h20.9L214,104.72Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M214.38,104.72v68.42h18.79V104.72Zm0-26.06V94.15h18.79V78.66Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M277.08,132c-10.57-2.5-21.31-3.44-21.31-10.16,0-5.72,6.24-6.38,10.46-6.38,6.76,0,12.31,2,12.83,9.29h17.88c-1.45-16.81-15.35-21.83-30.19-21.83S237,107.36,237,124.83c0,12.2,10.71,15.77,21.7,18.26C272.06,145.86,280,148,280,153.7c0,6.58-7,8.73-12.3,8.73-7.28,0-14.42-3.46-14.42-11.54H235.39C236.05,169,251.68,175,267.55,175c15.49,0,31.23-5.82,31.23-23.81C298.78,138.48,288.07,134.5,277.08,132Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M101.38,15.62H82.59V.14h18.79ZM82.59,26.21h18.79V94.62H82.59Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M116.35,38.78H105.11V26.21h11.24V20.92C116.35,8.74,123.9.14,139.24.14c3.31,0,6.75.4,9.93.53v14a58.78,58.78,0,0,0-6.88-.4c-5.16,0-7.15,2.12-7.15,7.81v4.1h13V38.78h-13V94.62H116.35Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M154,38.78H142.73V26.21H154V20.92C154,8.74,161.52.14,176.86.14c3.31,0,6.75.4,9.93.53v14a58.78,58.78,0,0,0-6.88-.4c-5.16,0-7.15,2.12-7.15,7.81v4.1h13V38.78h-13V94.62H154Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M30.76,73.65l-3,3.5H50.29a31.56,31.56,0,0,1,13.78,3,30,30,0,0,1,6.68,4.44,30.31,30.31,0,0,1,7.46,10.07H.15V78.19L4,73.65l3-3.57L50.82,17.61H4.14V.14H78.48V16.53L33.74,70.08Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M80,103.25h-24c5.16,5.44,7.17,13.79,7.17,24.16,0,20.9-11.54,28.31-23.56,28.31H21V103.25H.24v69.94H41c28.84,0,42.87-20.38,42.87-47.76A58.49,58.49,0,0,0,80,103.25Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M148.17,158v-35.6c0-13.69-11.37-18.06-23-19.13a69.11,69.11,0,0,0-7-.31,8.14,8.14,0,0,0-.86,0c-15.08.18-30.26,5.69-31.3,22.84h18.78c.66-7.41,5.17-10.32,12.45-10.32,6.62,0,12.16,1.31,12.16,9.28.8,15.32-45.23-1.35-45.51,29.78,0,14,10.19,20.48,23.3,20.48,8.45,0,17-2.25,23-8.46a28.26,28.26,0,0,0,1.32,6.62h19.06C148.83,170.42,148.17,164.18,148.17,158Zm-18.79-11.27c0,4.23-.52,15.77-15.21,15.77-6.07,0-11.51-1.87-11.51-8.73s5.3-9,11.13-10.09,12.44-1.18,15.59-3.95Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M194.71,104.78,180.29,151.5H180l-14.42-46.72H145.87l23.43,68.41h20.9l23.15-68.41Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M213.77,104.78v68.41h18.79V104.78Zm0-26.07V94.2h18.79V78.71Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path><path d="M276.47,132c-10.57-2.5-21.32-3.43-21.32-10.16,0-5.72,6.24-6.37,10.47-6.37,6.76,0,12.3,2,12.82,9.28h17.89C294.87,108,281,102.94,266.14,102.94s-29.77,4.47-29.77,21.94c0,12.2,10.71,15.77,21.69,18.26,13.38,2.78,21.32,4.89,21.32,10.61,0,6.58-7,8.73-12.3,8.73-7.28,0-14.42-3.46-14.42-11.54H234.77c.66,18.13,16.29,24.09,32.17,24.09,15.49,0,31.23-5.82,31.23-23.81C298.17,138.53,287.46,134.55,276.47,132Z" transform="translate(-0.15 -0.09)" style="fill:#221276"></path></svg></a>
+        <span class="licensee wrap">IGN India is operated by <a href="https://forkmediagroup.com/" rel="nofollow">Fork Media Group Pvt. Ltd.</a> under license from IGN Entertainment and its affiliates.</span>
+      </div>
+    </div>
+  </footer>
+</div>
+</div>
+<div id="tracker"><script> if(window === window.top){ICMS.tcf2loader.push("https://cdn.contextads.live/publishers/cads-generic.min.js")};</script></div>
+
+<section id="js">
+  
+  <script type="text/javascript" src="https://pg.ignimgs.com/pogoadkit.js" async></script>
+  <script>var zad = zad || {'cmd': []}; zad.cmd.push(function() { window.zad.start(); })</script>
+  
+  
+  
+<script type="text/javascript">function disqus_config() { this.language = "en"; } var disqus_shortname = 'ign-in';</script>
+<!--
+<script type="text/javascript" src='/s/js/quantize.js?562')></script>
+!-->
+<script type="text/javascript" src="https://ign-in.disqus.com/count.js" async="true"></script>
+
+  
+<script type='application/ld+json'>
+{
+	"@context":"https://schema.org",
+	"@type":"WebSite",
+	"url":"https://in.ign.com",
+	"name":"IGN India",
+	"description":"IGN India is your ultimate destination for xbox 360, xbox one, ps3, ps4, PC, Vita, 3DS &amp; Iphone games with expert reviews, previews, news, cheat codes, wikis.",
+	"potentialAction":{ "@type":"SearchAction", "target":"https://in.ign.com/se/?q={search_term_string}", "query-input":"required name=search_term_string"}
+}
+</script>
+<script type='application/ld+json'>
+{
+	"@context":"https://schema.org",
+	"@type":"Organization",
+	"url":"https://in.ign.com",
+	"name":"IGN India",
+	"sameAs": ["https://www.facebook.com/IGNDIA", "https://twitter.com/IGN_IN"],
+	"logo":"https://in.ign.com/s/ign/ign_logo_micro.png"
+}
+</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://in.ign.com/dream-11-fantasy-gaming/204111/news/pbks-vs-dc-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-ipl-2024-match-2-on-marc"}, {"@type": "ListItem", "position": 2, "url": "https://in.ign.com/dragons-dogma-ii/204110/news/dragons-dogma-2-breaks-capcom-steam-records-amid-microtransactions-furore"}, {"@type": "ListItem", "position": 3, "url": "https://in.ign.com/grand-theft-auto-vi/204094/news/gta-6-rockstar-is-seemingly-confident-about-the-game-running-at-60-fps-on-the-ps5"}, {"@type": "ListItem", "position": 4, "url": "https://in.ign.com/call-of-duty-warzone-mobile/204096/news/call-of-duty-warzone-mobile-can-be-played-with-a-controller"}, {"@type": "ListItem", "position": 5, "url": "https://in.ign.com/dragons-dogma-ii/204108/feature/psa-saving-in-dragons-dogma-2-doesnt-work-like-you-expect-heres-what-you-need-to-know"}, {"@type": "ListItem", "position": 6, "url": "https://in.ign.com/helldivers-ii/204100/news/helldivers-2-players-believe-that-the-third-faction-has-made-its-way-to-the-game-already"}, {"@type": "ListItem", "position": 7, "url": "https://in.ign.com/dream-11-fantasy-gaming/204102/news/mis-vs-pps-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-tobago-t10-blast-2024-ma"}, {"@type": "ListItem", "position": 8, "url": "https://in.ign.com/princess-peach-switch/204103/news/princess-peach-showtimes-director-developer-have-finally-been-revealed"}, {"@type": "ListItem", "position": 9, "url": "https://in.ign.com/marvels-spider-man-2/204101/news/spider-man-2s-popular-fast-travel-system-was-almost-cut-because-it-totally-broke-our-game"}, {"@type": "ListItem", "position": 10, "url": "https://in.ign.com/dragon-ball-2/204099/news/worlds-only-dragon-ball-theme-park-is-being-made-in-saudi-arabia"}, {"@type": "ListItem", "position": 11, "url": "https://in.ign.com/dream-11-fantasy-gaming/204097/news/sbs-vs-pbr-check-our-fantasy-cricket-prediction-tips-playing-team-picks-for-tobago-t10-blast-2024-ma"}, {"@type": "ListItem", "position": 12, "url": "https://in.ign.com/invincible-presents-atom-eve/204090/news/invincible-presents-atom-eve-and-call-of-the-wild-the-angler-are-currently-free-on-the-epic-games-st"}, {"@type": "ListItem", "position": 13, "url": "https://in.ign.com/tv/204033/news/amazon-prime-video-announces-69-movies-and-shows-coming-in-2024"}, {"@type": "ListItem", "position": 14, "url": "https://in.ign.com/ign-army-vs-stars/204021/news/ign-army-godlike-esports-talks-about-the-codm-world-championship-work-to-improve-their-performance-a"}, {"@type": "ListItem", "position": 15, "url": "https://in.ign.com/dream-11-fantasy-gaming/204093/story/chennai-super-kings-vs-royal-challengers-bengaluru-indian-premier-league-2024-match-1-top-5-fantasy"}, {"@type": "ListItem", "position": 16, "url": "https://in.ign.com/astra-knights-of-veda/204087/news/astra-knights-of-veda-collaborates-with-k-pop-artists-from-seventeen-fromis-9"}]}</script>
+
+</section>
+</body>
+</html>
